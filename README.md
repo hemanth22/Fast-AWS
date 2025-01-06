@@ -69,7 +69,11 @@ Why should we use / learn AWS?
 #### AWS Elastic Beanstalk
 - Run and manage web apps
 - Document:
-  
+
+#### AWS Amplify
+- Build, deploy, and host scalable web and mobile apps
+- Document:
+
 #### AWS Lambda
 - Run code without thinking about servers
 - Document:
@@ -133,10 +137,49 @@ Why should we use / learn AWS?
   
 #### AWS Fargate
 - Serverless compute for containers
-- Document: 
+- Document:
+  
+### Storage
+#### Amazon Simple Storage Service (S3)
+- Scalable storage in the cloud
+
+#### Amazon S3 Glacier storage classes
+- Low-cost archive storage in the cloud
+
+#### Amazon Elastic Block Store (EBS)
+- EC2 block storage volumes
+
+#### Amazon Elastic File System (EFS)
+- Fully managed file system for EC2
+
+#### Amazon FSx for Lustre
+- High-performance file system integrated with S3
+
+#### Amazon FSx for NetApp ONTAP
+- Fully managed storage built on NetApp’s popular ONTAP file system
+
+#### Amazon FSx for OpenZFS
+- Fully managed storage built on the popular OpenZFS file system
+
+#### Amazon FSx for Windows File Server
+- Fully managed Windows native file system
+
+#### Amazon File Cache
+- High-speed cache for datasets stored anywhere
+
+#### AWS Backup
+- Centralized backup across AWS services
+
+#### AWS Elastic Disaster Recovery (DRS)
+- Scalable, cost-effective application recovery
+
+#### AWS Snowball
+- Accelerate moving offline data or remote storage to the cloud
+
+#### AWS Storage Gateway
+- Hybrid storage integration
 
 ### Databases
-
 #### Amazon Aurora
 - High performance managed relational database with full MySQL and PostgreSQL compatibility
 
@@ -172,4 +215,390 @@ Why should we use / learn AWS?
 
 #### AWS Database Migration Service
 - Migrate databases with minimal downtime
-  
+
+### Data Analytics
+#### Amazon Athena
+- Query data in S3 using SQL
+
+#### Amazon OpenSearch Service
+- Search, visualize, and analyze up to petabytes of text and unstructured data
+
+#### Amazon EMR
+- Easily run big data frameworks
+
+#### Amazon FinSpace
+- Analytics for the financial services industry
+
+#### Amazon Kinesis
+- Analyze real-time video and data streams
+
+#### Amazon Data Firehose
+- Real-time streaming delivery for any data, at any scale, at low-cost
+
+#### Amazon Managed Service for Apache Flink
+- Fully managed Apache Flink service
+
+#### Amazon Managed Streaming for Apache Kafka
+- Fully managed Apache Kafka service
+
+#### Amazon Redshift
+- Fast, simple, cost-effective data warehousing
+
+#### Amazon QuickSight
+- Fast business analytics service
+
+#### AWS Data Exchange
+- Find, subscribe to, and use third-party data in the cloud
+
+#### AWS Glue
+- Simple, scalable, and serverless data integration
+
+#### AWS Lake Formation
+- Build, manage, and secure your data lake
+
+### Service Integration
+#### AWS Step Functions
+- Coordination for distributed applications
+
+#### Amazon API Gateway
+- Build, deploy, and manage APIs
+
+#### Amazon AppFlow
+- No-code integration for SaaS apps & AWS services
+
+#### Amazon EventBridge
+- Serverless event bus for SaaS apps & AWS services
+
+#### Amazon Managed Workflows for Apache Airflow
+- Highly available, secure, and managed workflow orchestration
+
+#### Amazon MQ
+- Managed message broker service
+
+#### Amazon Simple Notification Service (SNS)
+- Pub/sub, SMS, email, and mobile push notifications
+
+#### Amazon Simple Queue Service (SQS)
+- Managed message queues
+
+#### AWS AppSync
+- Fully-managed, scalable GraphQL APIs
+
+### Cloud Financial Management
+#### AWS Cost Explorer
+- Analyze your AWS cost and usage
+
+#### AWS Billing Conductor
+- Simplify billing and reporting with customizable pricing and cost visibility
+
+#### AWS Budgets
+- Set custom cost and usage budgets
+
+#### AWS Cost and Usage Report
+- Access comprehensive cost and usage information
+
+### Management & Governance
+#### Amazon CloudWatch
+- Monitor resources and applications
+
+#### Amazon Managed Grafana
+- Powerful interactive data visualizations
+
+#### Amazon Managed Service for Prometheus
+- Highly available, secure monitoring for containers
+
+#### AWS CloudFormation
+- Create and manage resources with templates
+
+#### AWS CloudTrail
+- Track user activity and API usage
+
+#### AWS Command Line Interface
+- Unified tool to manage AWS services
+
+#### AWS Compute Optimizer
+- Identify optimal AWS Compute resources
+
+#### AWS Config
+- Track resources inventory and changes
+
+#### AWS Control Tower
+- Set up and govern a secure, compliant multi-account environment
+
+#### AWS Health Dashboard
+- View important events and changes affecting your AWS environment
+
+#### AWS License Manager
+- Track, manage, and control licenses
+
+#### AWS Management Console
+- Web-based user interface
+
+#### AWS Managed Services
+- Infrastructure operations management for AWS
+
+#### AWS Organizations
+- Central governance and management across AWS accounts
+
+#### AWS Proton
+- Automated management for container and serverless deployment
+
+#### AWS Service Catalog
+- Create and use standardized products
+
+#### AWS Systems Manager
+- Gain operational insights and take action
+
+#### AWS Trusted Advisor
+- Optimize performance and security
+
+#### AWS User Notifications
+- Configure and view notifications from AWS services
+
+#### AWS Well-Architected Tool
+- Review and improve your workloads
+
+### Security, Identity, & Compliance
+#### AWS Identity and Access Management (IAM)
+- Securely manage access to services and resources
+
+#### Amazon Cognito
+- Identity management for your apps
+
+#### Amazon Detective
+- Investigate potential security issues
+
+#### Amazon GuardDuty
+- Managed threat detection service
+
+#### Amazon Inspector
+- Automate vulnerability management
+
+#### Amazon Macie
+- Discover and protect your sensitive data at scale
+
+#### Amazon Security Lake
+- Automatically centralize your security data with a few clicks
+
+#### Amazon Verified Permissions
+- Fine-grained permissions and authorization for your applications
+
+#### AWS Artifact
+- On-demand access to AWS’ compliance reports
+
+#### AWS Audit Manager
+- Continuously audit your AWS usage
+
+#### AWS Certificate Manager
+- Provision, manage, and deploy SSL/TLS certificates
+
+#### AWS CloudHSM
+- Hardware-based key storage for regulatory compliance
+
+#### AWS Directory Service
+- Host and manage active directory
+
+#### AWS Firewall Manager
+- Central management of firewall rules
+
+#### AWS Key Management Service
+- Managed creation and control of encryption keys
+
+#### AWS Network Firewall
+- Network security to protect your VPCs
+
+#### AWS Resource Access Manager
+- Simple, secure service to share AWS resources
+
+#### AWS Secrets Manager
+- Rotate, manage, and retrieve secrets
+
+#### AWS Security Hub
+- Unified security and compliance center
+
+#### AWS Shield
+- DDoS protection
+
+#### AWS IAM Identity Center
+- Manage single sign-on access to AWS accounts and apps
+
+#### AWS WAF
+- Filter malicious web traffic
+
+### Networking & Content Delivery
+#### Amazon VPC
+- Isolated cloud resources
+
+#### Amazon VPC Lattice
+- Simplify service-to-service connectivity, security, and monitoring
+
+#### Amazon API Gateway
+- Build, deploy, and manage APIs
+
+#### Amazon CloudFront
+- Global content delivery network
+
+#### Amazon Route 53
+- Scalable domain name system (DNS)
+
+#### AWS App Mesh
+- Monitor and control microservices
+
+#### AWS Cloud Map
+- Service discovery for cloud resources
+
+#### AWS Cloud WAN
+- Easily build, manage, and monitor global wide area networks
+
+#### AWS Direct Connect
+- Dedicated network connection to AWS
+
+#### AWS Global Accelerator
+- Improve application availability and performance
+
+#### AWS Private 5G
+- Easily deploy, manage, and scale a private cellular network
+
+#### AWS PrivateLink
+- Securely access services hosted on AWS
+
+#### AWS Transit Gateway
+- Easily scale VPC and account connections
+
+#### AWS Verified Access
+- Provide secure access to corporate applications without a VPN
+
+#### AWS VPN
+- Securely access your network resources
+
+#### Elastic Load Balancing (ELB)
+- Distribute incoming traffic across multiple targets
+
+### Migration & Modernization
+#### AWS Migration Hub
+- Track migrations from a single place
+
+#### AWS Application Discovery Service
+- Discover on-premises applications to streamline migration
+
+#### AWS Application Migration Service (MGN)
+- Move and improve your on-premises and cloud-based applications
+
+#### AWS Database Migration Service
+- Migrate databases with minimal downtime
+
+#### AWS DataSync
+- Simple, fast, online data transfer
+
+#### AWS Migration Acceleration Program
+- Comprehensive and proven cloud migration program
+
+#### AWS Optimization and Licensing Assessment
+- Optimize your license and compute costs before and after migration
+
+#### AWS Transfer Family
+- Fully managed SFTP, FTPS, FTP, and AS2 service
+
+#### Migration Evaluator (Formerly TSO Logic)
+- Create a business case for cloud migration
+
+#### AWS for VMware
+- Migrate and modernize VMware-based workloads
+
+### Internet of Things
+#### AWS IoT Button
+- Cloud programmable dash button
+
+#### AWS IoT Core
+- Connect devices to the cloud
+
+#### AWS IoT Device Defender
+- Security management for IoT devices
+
+#### AWS IoT Device Management
+- Onboard, organize, and remotely manage IoT devices
+
+#### AWS IoT Events
+- IoT event detection and response
+
+#### AWS IoT FleetWise
+- Easily collect, transform, and transfer vehicle data to the cloud in near-real time
+
+#### AWS IoT Greengrass
+- Local compute, messaging, and sync for devices
+
+#### Amazon Kinesis Video Streams
+- Capture, process, and analyze real-time video streams
+
+#### FreeRTOS
+- Real-time operating system for microcontrollers
+
+#### Amazon Location Service
+- Securely and easily add location data to applications
+
+#### AWS Device Farm
+- Test Android, iOS, and web apps on real devices in the AWS cloud
+
+### Artificial Intelligence
+#### Amazon Q
+- Generative AI-powered assistant for work
+
+#### Amazon Bedrock
+- Build with foundation models
+
+#### Amazon SageMaker AI
+- Build, train, and deploy machine learning models at scale
+
+#### AWS App Studio 
+- Fastest and easiest way to build enterprise-grade applications
+
+#### Amazon Augmented AI
+- Easily implement human review of ML predictions
+
+#### Amazon CodeGuru
+- Find your most expensive lines of code
+
+#### Amazon Comprehend
+- Discover insights and relationships in text
+
+#### Amazon Comprehend Medical
+- Extract health data
+
+#### Amazon Elastic Inference
+- Deep learning inference acceleration
+
+#### Amazon Fraud Detector
+- Detect more online fraud faster
+
+#### Amazon Kendra
+- Reinvent enterprise search with ML
+
+#### Amazon Lex
+- Build voice and text chatbots
+
+#### Amazon Lookout for Metrics
+- Detect anomalies in metrics
+
+#### Amazon Monitron
+- End-to-end system for equipment monitoring
+
+#### AWS HealthLake
+- Make sense of health data
+
+#### Amazon Personalize
+- Build real-time recommendations into your applications
+
+#### Amazon Polly
+- Turn text into life-like speech
+
+#### Amazon Rekognition
+- Analyze image and video
+
+#### Amazon Textract
+- Extract text and data from documents
+
+#### Amazon Translate
+- Natural and fluent language translation
+
+#### Amazon Transcribe
+- Automatic speech recognition
