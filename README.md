@@ -245,28 +245,24 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Fully managed time series database
 - **Document**: https://docs.aws.amazon.com/timestream/latest/developerguide/what-is-timestream.html
 
-#### AWS Database Migration Service
-- Migrate databases with minimal downtime
-- **Document**:
-
 ### 5. Data Analytics Services <a name="dataanalytics"></a>
 #### Amazon Athena
 - Query data in S3 using SQL
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/athena/latest/ug/what-is.html
 
 #### Amazon OpenSearch Service
 - Search, visualize, and analyze up to petabytes of text and unstructured data
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html
 
 #### Amazon EMR
 - Easily run big data frameworks
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-what-is-emr.html
 
 #### Amazon FinSpace
 - Analytics for the financial services industry
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/finspace/latest/userguide/finspace-what-is.html
 
-#### Amazon Kinesis
+#### Amazon Kinesis Analytics
 - Analyze real-time video and data streams
 - **Document**:
 
