@@ -61,12 +61,14 @@ There are more than 200 AWS services. Popular services are listed in short.
 #### Amazon EC2 
 - Virtual servers in the cloud
 - Document: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
-- ![image](https://github.com/user-attachments/assets/fdd66a3a-f740-43ed-b8f9-ac34a4cf743e)
+
+  ![image](https://github.com/user-attachments/assets/fdd66a3a-f740-43ed-b8f9-ac34a4cf743e)
 
 #### Amazon EC2 Auto Scaling 
 - Scale compute capacity to meet demand
 - Document: https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html
-- ![image](https://github.com/user-attachments/assets/3dc3ba14-cf8c-43a7-805d-c31f42a46c4b)
+
+  ![image](https://github.com/user-attachments/assets/3dc3ba14-cf8c-43a7-805d-c31f42a46c4b)
 
 #### Amazon Lightsail 
 - Launch and manage virtual private servers
@@ -78,76 +80,68 @@ There are more than 200 AWS services. Popular services are listed in short.
 
 #### AWS Batch
 - Run batch jobs at any scale
-- Document:
+- Document: https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html
   
 #### AWS Elastic Beanstalk
 - Run and manage web apps
-- Document:
+- Document: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html
+
+  ![image](https://github.com/user-attachments/assets/5c945a80-aa4a-4987-a72e-3d704fdfd6e3)
 
 #### AWS Amplify
 - Build, deploy, and host scalable web and mobile apps
-- Document:
+- Document: https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html 
 
 #### AWS Lambda
 - Run code without thinking about servers
-- Document:
+- Document: https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
   
 #### AWS Outposts
 - Run AWS infrastructure on-premises
-- Document:
+- Document: https://docs.aws.amazon.com/outposts/latest/userguide/what-is-outposts.html 
   
 #### AWS Parallel Computing Service
 - Easily run HPC workloads at virtually any scale
-- Document:
+- Document: https://docs.aws.amazon.com/pcs/latest/userguide/what-is-service.html
   
 #### AWS Serverless Application Repository
 - Discover, deploy, and publish serverless applications
-- Document:
+- Document: https://docs.aws.amazon.com/serverlessrepo/latest/devguide/what-is-serverlessrepo.html
   
 #### AWS Snowball
 - Accelerate moving offline data or remote storage to the cloud
-- Document:
+- Document: https://docs.aws.amazon.com/snowball/latest/developer-guide/whatisedge.html
   
 #### AWS Wavelength
 - Deliver ultra-low latency applications for 5G devices
-- Document:
+- Document: https://docs.aws.amazon.com/wavelength/latest/developerguide/how-wavelengths-work.html
   
 ### 2. Container Services  <a name="container"></a>
 #### Amazon Elastic Container Registry
 - Easily store, manage, and deploy container images
-- Document:
+- Document: https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html
   
 #### Amazon Elastic Container Service (ECS)
 - Highly secure, reliable, and scalable way to run containers
-- Document:
-  
-#### Amazon ECS Anywhere
-- Run containers on customer-managed infrastructure
-- Document:
+- Document: https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html
+
+  ![image](https://github.com/user-attachments/assets/f1818548-9d1e-48fe-b43f-d3b1d53a9f39)
   
 #### Amazon Elastic Kubernetes Service (EKS)
 - The most trusted way to run Kubernetes
-- Document:
-  
-#### Amazon EKS Anywhere
-- Kubernetes on your infrastructure
-- Document:
-  
-#### Amazon EKS Distro
-- Run consistent Kubernetes clusters
-- Document:
+- Amazon EKS Anywhere: Kubernetes on your infrastructure
+- Amazon EKS Distro: Run consistent Kubernetes clusters
+- Document: https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html
   
 #### AWS App2Container
 - Containerize and migrate existing applications
-- Document:
+- Document: https://docs.aws.amazon.com/app2container/latest/UserGuide/what-is-a2c.html
   
 #### AWS App Runner 
 - Build and run containerized web apps at scale
-- Document:
-  
-#### AWS Copilot
-- Easily deploy and operate containerized applications
-- Document:
+- Document: https://docs.aws.amazon.com/apprunner/latest/dg/what-is-apprunner.html
+
+  ![image](https://github.com/user-attachments/assets/d75b0048-a093-4d2c-89f4-cf7129544a16)
   
 #### AWS Fargate
 - Serverless compute for containers
