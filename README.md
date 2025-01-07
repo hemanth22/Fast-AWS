@@ -203,47 +203,47 @@ There are more than 200 AWS services. Popular services are listed in short.
 ### 4. Database Services <a name="database"></a>
 #### Amazon Aurora
 - High performance managed relational database with full MySQL and PostgreSQL compatibility
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html
 
 #### Amazon Aurora DSQL
 - Fastest serverless distributed SQL database with active-active high availability
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/aurora-dsql/latest/userguide/getting-started.html
 
 #### Amazon Aurora Serverless V2
 - Instantly scale to >100,000 transactions per second
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.html
 
-#### Amazon **Document**DB (with MongoDB compatibility)
+#### Amazon DocumentDB (with MongoDB compatibility)
 - Fully managed **Document** database
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html
 
 #### Amazon DynamoDB
 - Managed NoSQL database
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html
 
 #### Amazon ElastiCache
 - In-memory caching service for Valkey, Memcached, and Redis OSS
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.html
 
 #### Amazon Keyspaces (for Apache Cassandra)
 - Managed Cassandra-compatible database
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/keyspaces/latest/devguide/what-is-keyspaces.html
 
 #### Amazon MemoryDB
 - Valkey- and Redis OSS-compatible, durable, in-memory database with ultra-fast performance
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/memorydb/latest/devguide/what-is-memorydb.html
 
 #### Amazon Neptune
 - Fully managed graph database service
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/neptune/latest/userguide/intro.html
 
 #### Amazon RDS
 - Managed relational database service for PostgreSQL, MySQL, MariaDB, SQL Server, Oracle, and Db2
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html
 
 #### Amazon Timestream
 - Fully managed time series database
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/timestream/latest/developerguide/what-is-timestream.html
 
 #### AWS Database Migration Service
 - Migrate databases with minimal downtime
@@ -270,6 +270,10 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Analyze real-time video and data streams
 - **Document**:
 
+#### Amazon Neptune Analytics
+- With Neptune Analytics, you can get insights and find trends by processing large amounts of graph data in seconds.
+- **Document**: https://docs.aws.amazon.com/neptune-analytics/latest/userguide/what-is-neptune-analytics.html
+  
 #### Amazon Data Firehose
 - Real-time streaming delivery for any data, at any scale, at low-cost
 - **Document**:
