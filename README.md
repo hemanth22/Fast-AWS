@@ -88,6 +88,9 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Run and manage web apps
 - **Document**: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html
 
+  ![image](https://github.com/user-attachments/assets/5cdd1b43-af04-4e3d-b2d4-15e92ac55c11)
+
+
 #### AWS Amplify
 - Build, deploy, and host scalable web and mobile apps
 - **Document**: https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html 
@@ -95,6 +98,8 @@ There are more than 200 AWS services. Popular services are listed in short.
 #### AWS Lambda
 - Run code without thinking about servers
 - **Document**: https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
+
+  ![image](https://github.com/user-attachments/assets/84cd58a9-6a2e-49ff-84e5-b8ca68bab969)
   
 #### AWS Outposts
 - Run AWS infrastructure on-premises
