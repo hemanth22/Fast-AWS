@@ -90,7 +90,6 @@ There are more than 200 AWS services. Popular services are listed in short.
 
   ![image](https://github.com/user-attachments/assets/5cdd1b43-af04-4e3d-b2d4-15e92ac55c11)
 
-
 #### AWS Amplify
 - Build, deploy, and host scalable web and mobile apps
 - **Document**: https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html 
@@ -112,11 +111,7 @@ There are more than 200 AWS services. Popular services are listed in short.
 #### AWS Serverless Application Repository
 - Discover, deploy, and publish serverless applications
 - **Document**: https://docs.aws.amazon.com/serverlessrepo/latest/devguide/what-is-serverlessrepo.html
-  
-#### AWS Snowball
-- Accelerate moving offline data or remote storage to the cloud
-- **Document**: https://docs.aws.amazon.com/snowball/latest/developer-guide/whatisedge.html
-  
+
 #### AWS Wavelength
 - Deliver ultra-low latency applications for 5G devices
 - **Document**: https://docs.aws.amazon.com/wavelength/latest/developerguide/how-wavelengths-work.html
@@ -146,61 +141,65 @@ There are more than 200 AWS services. Popular services are listed in short.
   
 #### AWS Fargate
 - Serverless compute for containers
-- **Document**:
+- **ECS Fargate Document**: https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html
+- **EKS Fargate Document**: https://docs.aws.amazon.com/eks/latest/userguide/fargate-getting-started.html
   
 ### 3. Storage Services <a name="storage"></a>
 #### Amazon Simple Storage Service (S3)
 - Scalable storage in the cloud
-- **Document**: 
+- **Document**: https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
 
 #### Amazon S3 Glacier storage classes
 - Low-cost archive storage in the cloud
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/amazonglacier/latest/dev/introduction.html
 
 #### Amazon Elastic Block Store (EBS)
 - EC2 block storage volumes
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/ebs/latest/userguide/what-is-ebs.html
 
 #### Amazon Elastic File System (EFS)
 - Fully managed file system for EC2
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html
 
 #### Amazon FSx for Lustre
 - High-performance file system integrated with S3
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/fsx/latest/LustreGuide/what-is.html
 
 #### Amazon FSx for NetApp ONTAP
 - Fully managed storage built on NetApp’s popular ONTAP file system
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html
 
 #### Amazon FSx for OpenZFS
 - Fully managed storage built on the popular OpenZFS file system
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/fsx/latest/OpenZFSGuide/what-is-fsx.html
 
 #### Amazon FSx for Windows File Server
 - Fully managed Windows native file system
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/fsx/latest/WindowsGuide/what-is.html
 
 #### Amazon File Cache
 - High-speed cache for datasets stored anywhere
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/fsx/latest/FileCacheGuide/what-is.html
 
 #### AWS Backup
 - Centralized backup across AWS services
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html
 
 #### AWS Elastic Disaster Recovery (DRS)
 - Scalable, cost-effective application recovery
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/drs/latest/userguide/what-is-drs.html
 
 #### AWS Snowball
 - Accelerate moving offline data or remote storage to the cloud
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/snowball/latest/developer-guide/whatisedge.html
 
 #### AWS Storage Gateway
 - Hybrid storage integration
-- **Document**:
-
+- **S3 File Gateway Document**: https://docs.aws.amazon.com/filegateway/latest/files3/what-is-file-s3.html
+- **Volume Gateway Document**: https://docs.aws.amazon.com/storagegateway/latest/vgw/WhatIsStorageGateway.html
+- **Tape Gateway Document**: https://docs.aws.amazon.com/storagegateway/latest/tgw/WhatIsStorageGateway.html
+- **FSx File Gateway Document**: https://docs.aws.amazon.com/filegateway/latest/filefsxw/what-is-file-fsxw.html
+  
 ### 4. Database Services <a name="database"></a>
 #### Amazon Aurora
 - High performance managed relational database with full MySQL and PostgreSQL compatibility
