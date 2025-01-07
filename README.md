@@ -21,19 +21,19 @@ These hands-on labs focus on how to create and use AWS components:
 # Table of Contents
 - [Motivation](#motivation)
 - [Common AWS Services In-Short](#servicesshort)
-  - [1.Compute Services](#compute)
-  - [2.Container Services](#container)
-  - [3.Storage Services](#storage)
-  - [4.Database Services](#database)
-  - [5.Data Analytics Services](#dataanalytics)
-  - [6.Integration Services ](#integration)
-  - [7.Cloud Financial Management Services](#cloudfinancial)
-  - [8.Management & Governance Services](#managementgovernance)
-  - [9.Security, Identity, & Compliance Services](#securityidentity)
-  - [10.Networking Services](#networking)
-  - [11.Migration Services](#migration)
-  - [12.Internet of Things Services](#internetofthings)
-  - [13.Artificial Intelligence Services](#artificialintelligence)
+  - [1. Compute Services](#compute)
+  - [2. Container Services](#container)
+  - [3. Storage Services](#storage)
+  - [4. Database Services](#database)
+  - [5. Data Analytics Services](#dataanalytics)
+  - [6. Integration Services ](#integration)
+  - [7. Cloud Financial Management Services](#cloudfinancial)
+  - [8. Management & Governance Services](#managementgovernance)
+  - [9. Security, Identity, & Compliance Services](#securityidentity)
+  - [10. Networking Services](#networking)
+  - [11. Migration Services](#migration)
+  - [12. Internet of Things Services](#internetofthings)
+  - [13. Artificial Intelligence Services](#artificialintelligence)
 - [AWS Hands-on Labs](#samples)
   - [HANDS-ON-01: EC2s (Windows 2019 Server, Ubuntu 20.04), VPC, Key-Pairs for SSH, RDP connections](#ec2_vpc_key_pair_ssh_rdp)
   - [HANDS-ON-02: Provisioning Lambda Function, API Gateway and Reaching HTML Page in Python Code From Browsers](#lambda_apigateway_python)
@@ -55,7 +55,7 @@ Why should we use / learn AWS?
 - aws
 
 ## Common AWS Services In-Short <a name="servicesshort"></a>
-### 1.Compute Services <a name="compute"></a>
+### 1. Compute Services <a name="compute"></a>
 #### Amazon EC2 
 - Virtual servers in the cloud
 - Document: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html 
@@ -108,7 +108,7 @@ Why should we use / learn AWS?
 - Deliver ultra-low latency applications for 5G devices
 - Document:
   
-### 2.Container Services  <a name="container"></a>
+### 2. Container Services  <a name="container"></a>
 #### Amazon Elastic Container Registry
 - Easily store, manage, and deploy container images
 - Document:
@@ -149,7 +149,7 @@ Why should we use / learn AWS?
 - Serverless compute for containers
 - Document:
   
-### 3.Storage Services <a name="storage"></a>
+### 3. Storage Services <a name="storage"></a>
 #### Amazon Simple Storage Service (S3)
 - Scalable storage in the cloud
 
@@ -189,7 +189,7 @@ Why should we use / learn AWS?
 #### AWS Storage Gateway
 - Hybrid storage integration
 
-### 4.Database Services <a name="database"></a>
+### 4. Database Services <a name="database"></a>
 #### Amazon Aurora
 - High performance managed relational database with full MySQL and PostgreSQL compatibility
 
@@ -226,7 +226,7 @@ Why should we use / learn AWS?
 #### AWS Database Migration Service
 - Migrate databases with minimal downtime
 
-### 5.Data Analytics Services <a name="dataanalytics"></a>
+### 5. Data Analytics Services <a name="dataanalytics"></a>
 #### Amazon Athena
 - Query data in S3 using SQL
 
@@ -266,7 +266,7 @@ Why should we use / learn AWS?
 #### AWS Lake Formation
 - Build, manage, and secure your data lake
 
-### 6.Integration Services <a name="integration"></a>
+### 6. Integration Services <a name="integration"></a>
 #### AWS Step Functions
 - Coordination for distributed applications
 
@@ -294,7 +294,7 @@ Why should we use / learn AWS?
 #### AWS AppSync
 - Fully-managed, scalable GraphQL APIs
 
-### 7.Cloud Financial Management Services <a name="cloudfinancial"></a>
+### 7. Cloud Financial Management Services <a name="cloudfinancial"></a>
 #### AWS Cost Explorer
 - Analyze your AWS cost and usage
 
@@ -307,7 +307,7 @@ Why should we use / learn AWS?
 #### AWS Cost and Usage Report
 - Access comprehensive cost and usage information
 
-### 8.Management & Governance Services <a name="managementgovernance"></a>
+### 8. Management & Governance Services <a name="managementgovernance"></a>
 #### Amazon CloudWatch
 - Monitor resources and applications
 
@@ -368,7 +368,7 @@ Why should we use / learn AWS?
 #### AWS Well-Architected Tool
 - Review and improve your workloads
 
-### 9.Security, Identity, & Compliance Services <a name="securityidentity"></a>
+### 9. Security, Identity, & Compliance Services <a name="securityidentity"></a>
 #### AWS Identity and Access Management (IAM)
 - Securely manage access to services and resources
 
@@ -435,7 +435,7 @@ Why should we use / learn AWS?
 #### AWS WAF
 - Filter malicious web traffic
 
-### 10.Networking Services <a name="networking"></a>
+### 10. Networking Services <a name="networking"></a>
 #### Amazon VPC
 - Isolated cloud resources
 
@@ -484,7 +484,7 @@ Why should we use / learn AWS?
 #### Elastic Load Balancing (ELB)
 - Distribute incoming traffic across multiple targets
 
-### 11.Migration Services <a name="migration"></a>
+### 11. Migration Services <a name="migration"></a>
 #### AWS Migration Hub
 - Track migrations from a single place
 
@@ -515,7 +515,7 @@ Why should we use / learn AWS?
 #### AWS for VMware
 - Migrate and modernize VMware-based workloads
 
-### 12.Internet of Things Services <a name="internetofthings"></a>
+### 12. Internet of Things Services <a name="internetofthings"></a>
 #### AWS IoT Button
 - Cloud programmable dash button
 
@@ -549,7 +549,7 @@ Why should we use / learn AWS?
 #### AWS Device Farm
 - Test Android, iOS, and web apps on real devices in the AWS cloud
 
-### 13.Artificial Intelligence Services <a name="artificialintelligence"></a>
+### 13. Artificial Intelligence Services <a name="artificialintelligence"></a>
 #### Amazon Q
 - Generative AI-powered assistant for work
 
