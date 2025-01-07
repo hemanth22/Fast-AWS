@@ -2,9 +2,11 @@
 This repo covers AWS Hands-on Labs for different AWS services.
 
 ## Why was this repo created?
-- **Shows AWS details in short with simple **
-- **Shows AWS Hands-on LABs, and clean demos **
-
+- Shows and maps AWS services in short with reference AWS developer documentation  
+- Shows AWS Hands-on LABs with clean demos,
+- In-time, different AWS Hands-on LABs will be added.
+- Contributes to AWS open source community.
+  
 # Quick Look (How-To): AWS Hands-on Labs
 These hands-on labs focus on how to create and use AWS components:
 - [HANDS-ON-01: Provisioning EC2s (Windows 2019 Server, Ubuntu 20.04) on VPC (Subnet), Creating Key-Pair, Connecting Ubuntu using SSH, and Connecting Windows Using RDP](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE01-EC2-VPC-Ubuntu-Win-SSH-RDP.md)
