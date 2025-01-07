@@ -60,11 +60,13 @@ There are more than 200 AWS services. Popular services are listed in short.
 ### 1. Compute Services <a name="compute"></a>
 #### Amazon EC2 
 - Virtual servers in the cloud
-- Document: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html 
+- Document: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
+- ![image](https://github.com/user-attachments/assets/fdd66a3a-f740-43ed-b8f9-ac34a4cf743e)
 
 #### Amazon EC2 Auto Scaling 
 - Scale compute capacity to meet demand
 - Document: https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html
+- ![image](https://github.com/user-attachments/assets/3dc3ba14-cf8c-43a7-805d-c31f42a46c4b)
 
 #### Amazon Lightsail 
 - Launch and manage virtual private servers
