@@ -86,8 +86,6 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Run and manage web apps
 - **Document**: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html
 
-  ![image](https://github.com/user-attachments/assets/5c945a80-aa4a-4987-a72e-3d704fdfd6e3)
-
 #### AWS Amplify
 - Build, deploy, and host scalable web and mobile apps
 - **Document**: https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html 
