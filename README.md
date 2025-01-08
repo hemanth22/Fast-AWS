@@ -475,39 +475,55 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Monitor resources and applications
 - **Document**: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html
 
+  ![image](https://github.com/user-attachments/assets/14fefb53-2af4-4c0e-9fe7-25b1d42c6db2)
+
 #### Amazon Managed Grafana
 - Powerful interactive data visualizations
 - **Document**: https://docs.aws.amazon.com/grafana/latest/userguide/what-is-Amazon-Managed-Service-Grafana.html
+
+  ![image](https://github.com/user-attachments/assets/af50ac5a-f2f3-45d2-addc-30e14392fff2)
 
 #### Amazon Managed Service for Prometheus
 - Highly available, secure monitoring for containers
 - **Document**: https://docs.aws.amazon.com/prometheus/latest/userguide/what-is-Amazon-Managed-Service-Prometheus.html
 
+  ![image](https://github.com/user-attachments/assets/302d1b07-0348-484f-bb6e-f59e5900cba6)
+
 #### AWS CloudFormation
 - Create and manage resources with templates
 - **Document**: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html
+
+  ![image](https://github.com/user-attachments/assets/e0ab7482-19eb-4af9-8033-2735d511c977)
 
 #### AWS CloudTrail
 - Track user activity and API usage
 - **Document**: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html
 
+  ![image](https://github.com/user-attachments/assets/23e91461-72e8-4e9c-ba1a-71ad14c3a2af)
+
 #### AWS Command Line Interface
 - Unified tool to manage AWS services
 - **Document**: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
+
+  ![image](https://github.com/user-attachments/assets/91bd88c3-da00-40b7-9f89-5ac3fb6e03d7)
 
 #### AWS Compute Optimizer
 - Identify optimal AWS Compute resources
 - **Document**: https://docs.aws.amazon.com/compute-optimizer/latest/ug/what-is-compute-optimizer.html
 
-  ![image](https://github.com/user-attachments/assets/fdb2c41f-c867-4894-88c9-6e11c031236b)
+  ![image](https://github.com/user-attachments/assets/cf4faa12-9e46-4fde-99f0-bb0b4c313535)
 
 #### AWS Config
 - Track resources inventory and changes
 - **Document**: https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html
 
+  ![image](https://github.com/user-attachments/assets/b70d1294-d223-4c6d-87d0-ac7d04f6f278)
+
 #### AWS Control Tower
 - Set up and govern a secure, compliant multi-account environment
 - **Document**: https://docs.aws.amazon.com/controltower/latest/userguide/what-is-control-tower.html
+
+  ![image](https://github.com/user-attachments/assets/5f5846e4-abd8-45de-802d-412c1b3dc5e8)
 
 #### AWS Health Dashboard
 - View important events and changes affecting your AWS environment
@@ -517,9 +533,13 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Track, manage, and control licenses
 - **Document**: https://docs.aws.amazon.com/license-manager/latest/userguide/license-manager.html
 
+  ![image](https://github.com/user-attachments/assets/0a274193-519b-4403-abf8-88cb93262edb)
+
 #### AWS Management Console
 - Web-based user interface
 - **Document**: https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/what-is.html
+
+  ![image](https://github.com/user-attachments/assets/e7a9d3e2-7010-4e0a-8cb0-0131f1a65da7)
 
 #### AWS Managed Services (MS)
 - Infrastructure operations management for AWS
@@ -527,25 +547,37 @@ There are more than 200 AWS services. Popular services are listed in short.
 - **AMS Accelerate Document**: https://docs.aws.amazon.com/managedservices/latest/accelerate-guide/what-is-acc.html
 - **AMS Advanced Application Document**: https://docs.aws.amazon.com/managedservices/latest/appguide/intro-aog.html
 
+  ![image](https://github.com/user-attachments/assets/5cd6e21a-67dd-47df-8463-618a275b92a0)
+
 #### AWS Organizations
 - Central governance and management across AWS accounts
 - **Document**: https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html
 
+  ![image](https://github.com/user-attachments/assets/64f782f8-3aa0-4b73-a490-6ddd5f986f1b)
+
 #### AWS Proton
 - Automated management for container and serverless deployment
 - **Document**: https://docs.aws.amazon.com/proton/latest/userguide/Welcome.html
+  
+  ![image](https://github.com/user-attachments/assets/471f8c8d-089b-4997-81ca-4aafed8c03d7)
 
 #### AWS Service Catalog
 - Create and use standardized products
 - **Document**: https://docs.aws.amazon.com/servicecatalog/latest/adminguide/introduction.html
 
+  ![image](https://github.com/user-attachments/assets/3a017752-cef4-413f-95a7-62e560f516cb)
+
 #### AWS Systems Manager
 - Gain operational insights and take action
 - **Document**: https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html
 
+  ![image](https://github.com/user-attachments/assets/9f09f421-452e-4ba5-b2d8-bb3d1de2c5fc)
+
 #### AWS Trusted Advisor
 - Optimize performance and security
 - **Document**: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
+
+  ![image](https://github.com/user-attachments/assets/9e0aecef-f058-4b03-abe6-97d96f2bde7d)
 
 #### AWS User Notifications
 - Configure and view notifications from AWS services
@@ -554,6 +586,8 @@ There are more than 200 AWS services. Popular services are listed in short.
 #### AWS Well-Architected Tool
 - Review and improve your workloads
 - **Document**: https://docs.aws.amazon.com/wellarchitected/latest/userguide/intro.html
+
+  ![image](https://github.com/user-attachments/assets/6df131da-a943-4e11-8723-dd1fc584ad8a)
 
 ### 9. Security, Identity, & Compliance Services <a name="securityidentity"></a>
 #### AWS Identity and Access Management (IAM)
