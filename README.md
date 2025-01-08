@@ -305,178 +305,185 @@ There are more than 200 AWS services. Popular services are listed in short.
 ### 6. Integration Services <a name="integration"></a>
 #### AWS Step Functions
 - Coordination for distributed applications
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html
 
 #### Amazon API Gateway
 - Build, deploy, and manage APIs
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html
 
 #### Amazon AppFlow
 - No-code integration for SaaS apps & AWS services
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/appflow/latest/userguide/what-is-appflow.html
 
 #### Amazon EventBridge
 - Serverless event bus for SaaS apps & AWS services
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html
 
 #### Amazon Managed Workflows for Apache Airflow
 - Highly available, secure, and managed workflow orchestration
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/mwaa/latest/userguide/what-is-mwaa.html
 
 #### Amazon MQ
 - Managed message broker service
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/welcome.html
 
 #### Amazon Simple Notification Service (SNS)
 - Pub/sub, SMS, email, and mobile push notifications
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/sns/latest/dg/welcome.html
 
 #### Amazon Simple Queue Service (SQS)
 - Managed message queues
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html
 
 #### AWS AppSync
 - Fully-managed, scalable GraphQL APIs
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/appsync/latest/devguide/what-is-appsync.html
 
 ### 7. Cloud Financial Management Services <a name="cloudfinancial"></a>
 #### AWS Cost Explorer
 - Analyze your AWS cost and usage
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/solutions/latest/amazon-marketing-cloud-insights-on-aws/aws-cost-explorer.html
 
 #### AWS Billing Conductor
 - Simplify billing and reporting with customizable pricing and cost visibility
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/billingconductor/latest/userguide/what-is-billingconductor.html
 
-#### AWS Budgets
+#### AWS Billing and Cost Management
+- Billing and payments
+- Cost analysis
+- Cost organization
+- Budgeting and planning
+- Savings and commitments
 - Set custom cost and usage budgets
-- **Document**:
-
-#### AWS Cost and Usage Report
-- Access comprehensive cost and usage information
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/cost-management/latest/userguide/what-is-costmanagement.html
 
 ### 8. Management & Governance Services <a name="managementgovernance"></a>
 #### Amazon CloudWatch
 - Monitor resources and applications
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html
 
 #### Amazon Managed Grafana
 - Powerful interactive data visualizations
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/grafana/latest/userguide/what-is-Amazon-Managed-Service-Grafana.html
 
 #### Amazon Managed Service for Prometheus
 - Highly available, secure monitoring for containers
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/prometheus/latest/userguide/what-is-Amazon-Managed-Service-Prometheus.html
 
 #### AWS CloudFormation
 - Create and manage resources with templates
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html
 
 #### AWS CloudTrail
 - Track user activity and API usage
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html
 
 #### AWS Command Line Interface
 - Unified tool to manage AWS services
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
 
 #### AWS Compute Optimizer
 - Identify optimal AWS Compute resources
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/compute-optimizer/latest/ug/what-is-compute-optimizer.html
 
 #### AWS Config
 - Track resources inventory and changes
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html
 
 #### AWS Control Tower
 - Set up and govern a secure, compliant multi-account environment
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/controltower/latest/userguide/what-is-control-tower.html
 
 #### AWS Health Dashboard
 - View important events and changes affecting your AWS environment
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/health/latest/ug/aws-health-dashboard-status.html
 
 #### AWS License Manager
 - Track, manage, and control licenses
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/license-manager/latest/userguide/license-manager.html
 
 #### AWS Management Console
 - Web-based user interface
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/what-is.html
 
-#### AWS Managed Services
+#### AWS Managed Services (MS)
 - Infrastructure operations management for AWS
-- **Document**:
+- **AMS Document**: https://docs.aws.amazon.com/managedservices/latest/userguide/what-is-ams.html
+- **AMS Accelerate Document**: https://docs.aws.amazon.com/managedservices/latest/accelerate-guide/what-is-acc.html
+- **AMS Advanced Application Document**: https://docs.aws.amazon.com/managedservices/latest/appguide/intro-aog.html
 
 #### AWS Organizations
 - Central governance and management across AWS accounts
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html
 
 #### AWS Proton
 - Automated management for container and serverless deployment
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/proton/latest/userguide/Welcome.html
 
 #### AWS Service Catalog
 - Create and use standardized products
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/servicecatalog/latest/adminguide/introduction.html
 
 #### AWS Systems Manager
 - Gain operational insights and take action
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html
 
 #### AWS Trusted Advisor
 - Optimize performance and security
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
 
 #### AWS User Notifications
 - Configure and view notifications from AWS services
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/notifications/latest/userguide/what-is-service.html
 
 #### AWS Well-Architected Tool
 - Review and improve your workloads
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/wellarchitected/latest/userguide/intro.html
 
 ### 9. Security, Identity, & Compliance Services <a name="securityidentity"></a>
 #### AWS Identity and Access Management (IAM)
 - Securely manage access to services and resources
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html
 
 #### Amazon Cognito
-- Identity management for your apps
-- **Document**:
+- Identity management for your apps. It handles user authentication and authorization for your web and mobile apps.
+- With user pools, you can easily and securely add sign-up and sign-in functionality to your apps.
+- With identity pools (federated identities), your apps can get temporary credentials that grant users access to specific AWS resources, whether the users are anonymous or are signed in.
+- **User Pools Document**: https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pools.html
+- **Identity Pools Document**: https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-identity.html
+- **Cognito Sync Document**: https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-sync.html
 
 #### Amazon Detective
 - Investigate potential security issues
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/detective/latest/userguide/what-is-detective.html
 
 #### Amazon GuardDuty
 - Managed threat detection service
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html
 
 #### Amazon Inspector
 - Automate vulnerability management
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/inspector/latest/user/what-is-inspector.html
 
 #### Amazon Macie
 - Discover and protect your sensitive data at scale
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/macie/latest/user/what-is-macie.html
 
 #### Amazon Security Lake
 - Automatically centralize your security data with a few clicks
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/security-lake/latest/userguide/what-is-security-lake.html
 
 #### Amazon Verified Permissions
 - Fine-grained permissions and authorization for your applications
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/what-is-avp.html
 
 #### AWS Artifact
 - On-demand access to AWS’ compliance reports
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/artifact/latest/ug/what-is-aws-artifact.html
 
 #### AWS Audit Manager
 - Continuously audit your AWS usage
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/audit-manager/latest/userguide/what-is.html
 
 #### AWS Certificate Manager
 - Provision, manage, and deploy SSL/TLS certificates
