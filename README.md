@@ -264,7 +264,7 @@ There are more than 200 AWS services. Popular services are listed in short.
 
 #### Amazon Kinesis Analytics
 - Analyze real-time video and data streams
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/kinesisanalytics/latest/sqlref/analytics-sql-reference-dg.html
 
 #### Amazon Neptune Analytics
 - With Neptune Analytics, you can get insights and find trends by processing large amounts of graph data in seconds.
@@ -280,27 +280,27 @@ There are more than 200 AWS services. Popular services are listed in short.
 
 #### Amazon Managed Streaming for Apache Kafka
 - Fully managed Apache Kafka service
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/msk/latest/developerguide/what-is-msk.html
 
 #### Amazon Redshift
 - Fast, simple, cost-effective data warehousing
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/redshift/latest/gsg/new-user-serverless.html
 
 #### Amazon QuickSight
 - Fast business analytics service
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/quicksight/latest/user/welcome.html
 
 #### AWS Data Exchange
 - Find, subscribe to, and use third-party data in the cloud
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/data-exchange/latest/userguide/what-is.html
 
 #### AWS Glue
 - Simple, scalable, and serverless data integration
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html
 
 #### AWS Lake Formation
 - Build, manage, and secure your data lake
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/lake-formation/latest/dg/what-is-lake-formation.html
 
 ### 6. Integration Services <a name="integration"></a>
 #### AWS Step Functions
