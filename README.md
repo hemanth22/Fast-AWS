@@ -712,64 +712,57 @@ There are more than 200 AWS services. Popular services are listed in short.
 
 #### Amazon CodeGuru
 - Find your most expensive lines of code
-- **Document**:
+- **CodeGuru Security Document**: https://docs.aws.amazon.com/codeguru/latest/security-ug/what-is-codeguru-security.html
+- **CodeGuru Profiler Document**: https://docs.aws.amazon.com/codeguru/latest/profiler-ug/what-is-codeguru-profiler.html
+- **CodeGuru Reviewer Document**: https://docs.aws.amazon.com/codeguru/latest/reviewer-ug/welcome.html
+- **Bugbust Document**: https://docs.aws.amazon.com/codeguru/latest/bugbust-ug/what-is-aws-bugbust.html
 
 #### Amazon Comprehend
 - Discover insights and relationships in text
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html
 
 #### Amazon Comprehend Medical
 - Extract health data
-- **Document**:
-
-#### Amazon Elastic Inference
-- Deep learning inference acceleration
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/comprehend-medical/latest/dev/comprehendmedical-welcome.html
 
 #### Amazon Fraud Detector
 - Detect more online fraud faster
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/frauddetector/latest/ug/what-is-frauddetector.html
 
 #### Amazon Kendra
 - Reinvent enterprise search with ML
-- **Document**:
+- It is a managed information retrieval and intelligent search service that uses natural language processing and advanced deep learning model.
+- Unlike traditional keyword-based search, Amazon Kendra uses semantic and contextual similarity—and ranking capabilities—to decide whether a text chunk or document is relevant to a retrieval query.
+- **Document**: https://docs.aws.amazon.com/kendra/latest/dg/what-is-kendra.html
 
 #### Amazon Lex
 - Build voice and text chatbots
-- **Document**:
-
-#### Amazon Lookout for Metrics
-- Detect anomalies in metrics
-- **Document**:
-
-#### Amazon Monitron
-- End-to-end system for equipment monitoring
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/lexv2/latest/dg/what-is.html
 
 #### AWS HealthLake
 - Make sense of health data
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/healthlake/latest/devguide/what-is.html
 
 #### Amazon Personalize
 - Build real-time recommendations into your applications
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/personalize/latest/dg/what-is-personalize.html
 
 #### Amazon Polly
 - Turn text into life-like speech
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/polly/latest/dg/what-is.html
 
 #### Amazon Rekognition
 - Analyze image and video
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html
 
 #### Amazon Textract
 - Extract text and data from **Document**s
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/textract/latest/dg/what-is.html
 
 #### Amazon Translate
 - Natural and fluent language translation
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/translate/latest/dg/what-is.html
 
 #### Amazon Transcribe
 - Automatic speech recognition
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/transcribe/latest/dg/what-is.html
