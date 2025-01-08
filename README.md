@@ -319,21 +319,31 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Query data in S3 using SQL
 - **Document**: https://docs.aws.amazon.com/athena/latest/ug/what-is.html
 
+   ![image](https://github.com/user-attachments/assets/e892742c-8597-4eca-923a-7fc849b8f406)
+
 #### Amazon OpenSearch Service
 - Search, visualize, and analyze up to petabytes of text and unstructured data
 - **Document**: https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html
+
+  ![image](https://github.com/user-attachments/assets/9a77bea8-8a26-4915-bf61-cc7047859c38)
 
 #### Amazon EMR
 - Easily run big data frameworks
 - **Document**: https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-what-is-emr.html
 
+   ![image](https://github.com/user-attachments/assets/372f2f24-f194-468e-9b1d-7eb1d37cfdd5)
+
 #### Amazon FinSpace
 - Analytics for the financial services industry
 - **Document**: https://docs.aws.amazon.com/finspace/latest/userguide/finspace-what-is.html
 
+  ![image](https://github.com/user-attachments/assets/34f209fa-7826-4677-9eed-dc62ad4cf8ae)
+
 #### Amazon Kinesis Analytics
 - Analyze real-time video and data streams
 - **Document**: https://docs.aws.amazon.com/kinesisanalytics/latest/sqlref/analytics-sql-reference-dg.html
+
+   ![image](https://github.com/user-attachments/assets/222d80b3-7f29-457d-84cb-d2c65bc9c056)
 
 #### Amazon Neptune Analytics
 - With Neptune Analytics, you can get insights and find trends by processing large amounts of graph data in seconds.
@@ -343,77 +353,111 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Real-time streaming delivery for any data, at any scale, at low-cost
 - **Document**: https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html
 
+  ![image](https://github.com/user-attachments/assets/c66f5ad6-08ac-4906-a674-da89b2033d42)
+
 #### Amazon Managed Service for Apache Flink
 - Fully managed Apache Flink service
 - **Document**: https://docs.aws.amazon.com/managed-flink/latest/java/how-it-works.html
+
+  ![image](https://github.com/user-attachments/assets/273b9754-4bdd-465d-9a94-17754dbd7a24)
 
 #### Amazon Managed Streaming for Apache Kafka
 - Fully managed Apache Kafka service
 - **Document**: https://docs.aws.amazon.com/msk/latest/developerguide/what-is-msk.html
 
-
+  ![image](https://github.com/user-attachments/assets/56c5a9e7-bfe2-4c3f-9487-2d04789c72b9)
 
 #### Amazon QuickSight
 - Fast business analytics service
 - **Document**: https://docs.aws.amazon.com/quicksight/latest/user/welcome.html
 
+  ![image](https://github.com/user-attachments/assets/8cfa4a6a-4c58-4579-8972-6b81c57816d3)
+
 #### AWS Data Exchange
 - Find, subscribe to, and use third-party data in the cloud
 - **Document**: https://docs.aws.amazon.com/data-exchange/latest/userguide/what-is.html
+
+  ![image](https://github.com/user-attachments/assets/fee58fc6-cad3-4ff0-9178-9374aa06a8d3)
 
 #### AWS Glue
 - Simple, scalable, and serverless data integration
 - **Document**: https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html
 
+  ![image](https://github.com/user-attachments/assets/e9ef707e-796a-485f-8450-75782f9a04e5)
+
 #### AWS Lake Formation
 - Build, manage, and secure your data lake
 - **Document**: https://docs.aws.amazon.com/lake-formation/latest/dg/what-is-lake-formation.html
+
+  ![image](https://github.com/user-attachments/assets/9dffb5c1-30c7-4f14-86a4-8085675814d6)
 
 ### 6. Integration Services <a name="integration"></a>
 #### AWS Step Functions
 - Coordination for distributed applications
 - **Document**: https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html
 
+  ![image](https://github.com/user-attachments/assets/f4b3cea3-4675-4aff-af95-93c3b96dc543)
+
 #### Amazon API Gateway
 - Build, deploy, and manage APIs
 - **Document**: https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html
+
+  ![image](https://github.com/user-attachments/assets/3d19e332-6597-4d7f-9c20-ccb883da4d27)
 
 #### Amazon AppFlow
 - No-code integration for SaaS apps & AWS services
 - **Document**: https://docs.aws.amazon.com/appflow/latest/userguide/what-is-appflow.html
 
+  ![image](https://github.com/user-attachments/assets/75dbff0a-d2d9-44e4-be13-c7de88b37ed0)
+
 #### Amazon EventBridge
 - Serverless event bus for SaaS apps & AWS services
 - **Document**: https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html
+
+  ![image](https://github.com/user-attachments/assets/36966675-9886-4513-9c5e-224a88de42f9)
 
 #### Amazon Managed Workflows for Apache Airflow
 - Highly available, secure, and managed workflow orchestration
 - **Document**: https://docs.aws.amazon.com/mwaa/latest/userguide/what-is-mwaa.html
 
+  ![image](https://github.com/user-attachments/assets/0a594916-0def-42f9-b3a4-a4ec3f72cfd8)
+
 #### Amazon MQ
 - Managed message broker service
 - **Document**: https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/welcome.html
+
+  ![image](https://github.com/user-attachments/assets/f8c35e6d-7589-40c2-aae5-1773b5f2c263)
 
 #### Amazon Simple Notification Service (SNS)
 - Pub/sub, SMS, email, and mobile push notifications
 - **Document**: https://docs.aws.amazon.com/sns/latest/dg/welcome.html
 
+  ![image](https://github.com/user-attachments/assets/0dc84b94-84b4-4aee-bf43-bc0c78bed587)
+
 #### Amazon Simple Queue Service (SQS)
 - Managed message queues
 - **Document**: https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html
 
+  ![image](https://github.com/user-attachments/assets/c8af8b95-433f-4e8d-99d9-8fd1df35ecda)
+
 #### AWS AppSync
 - Fully-managed, scalable GraphQL APIs
 - **Document**: https://docs.aws.amazon.com/appsync/latest/devguide/what-is-appsync.html
+
+  ![image](https://github.com/user-attachments/assets/dce0a58b-4fcc-463b-8a8a-6f38d20fd853)
 
 ### 7. Cloud Financial Management Services <a name="cloudfinancial"></a>
 #### AWS Cost Explorer
 - Analyze your AWS cost and usage
 - **Document**: https://docs.aws.amazon.com/solutions/latest/amazon-marketing-cloud-insights-on-aws/aws-cost-explorer.html
 
+  ![image](https://github.com/user-attachments/assets/3e9960b6-6abd-426c-a552-0272b3695af3)
+
 #### AWS Billing Conductor
 - Simplify billing and reporting with customizable pricing and cost visibility
 - **Document**: https://docs.aws.amazon.com/billingconductor/latest/userguide/what-is-billingconductor.html
+
+  ![image](https://github.com/user-attachments/assets/e9798c3d-8889-4d1c-9aa4-441407a36090)
 
 #### AWS Billing and Cost Management
 - Billing and payments
@@ -423,6 +467,8 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Savings and commitments
 - Set custom cost and usage budgets
 - **Document**: https://docs.aws.amazon.com/cost-management/latest/userguide/what-is-costmanagement.html
+
+  ![image](https://github.com/user-attachments/assets/410f425d-4702-4125-9d75-4812d3b47d36)
 
 ### 8. Management & Governance Services <a name="managementgovernance"></a>
 #### Amazon CloudWatch
@@ -750,9 +796,13 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Securely and easily add location data to applications
 - **Document**: https://docs.aws.amazon.com/location/
 
+  ![image](https://github.com/user-attachments/assets/48c430bc-c0df-4fe2-8153-96dd578fc542)
+
 #### AWS Device Farm
 - Test Android, iOS, and web apps on real devices in the AWS cloud
 - **Document**: https://docs.aws.amazon.com/devicefarm/latest/developerguide/welcome.html
+ 
+  ![image](https://github.com/user-attachments/assets/788ee35d-708b-4306-94ec-9377ce04d66f)
 
 ### 13. Artificial Intelligence Services <a name="artificialintelligence"></a>
 #### Amazon Q
