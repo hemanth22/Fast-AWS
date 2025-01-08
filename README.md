@@ -272,11 +272,11 @@ There are more than 200 AWS services. Popular services are listed in short.
   
 #### Amazon Data Firehose
 - Real-time streaming delivery for any data, at any scale, at low-cost
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html
 
 #### Amazon Managed Service for Apache Flink
 - Fully managed Apache Flink service
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/managed-flink/latest/java/how-it-works.html
 
 #### Amazon Managed Streaming for Apache Kafka
 - Fully managed Apache Kafka service
