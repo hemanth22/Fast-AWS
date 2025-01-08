@@ -60,7 +60,7 @@ There are more than 200 AWS services. Popular services are listed in short.
 
 ### 1. Compute Services <a name="compute"></a>
 #### Amazon EC2 
-- Virtual servers in the cloud
+- Virtual servers/machines in the cloud
 - **Document**: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
 
   ![image](https://github.com/user-attachments/assets/cd0f3f0f-b5eb-4ce6-8355-0fab607c1a20)
