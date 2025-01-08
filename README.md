@@ -64,26 +64,32 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Virtual servers in the cloud
 - **Document**: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
 
-  ![image](https://github.com/user-attachments/assets/fdd66a3a-f740-43ed-b8f9-ac34a4cf743e)
+  ![image](https://github.com/user-attachments/assets/cd0f3f0f-b5eb-4ce6-8355-0fab607c1a20)
 
 #### Amazon EC2 Auto Scaling 
 - Scale compute capacity to meet demand
 - **Document**: https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html
 
-  ![image](https://github.com/user-attachments/assets/3dc3ba14-cf8c-43a7-805d-c31f42a46c4b)
+  ![image](https://github.com/user-attachments/assets/16603fd1-fd4c-457b-8f36-e6a8e8ae5ff2)
 
 #### Amazon Lightsail 
 - Launch and manage virtual private servers
 - **Document**: https://docs.aws.amazon.com/lightsail/latest/userguide/what-is-amazon-lightsail.html
-  
+
+  ![image](https://github.com/user-attachments/assets/60008da9-9416-4627-9aee-9f6736fc7511)
+
 #### AWS App Runner
 - Build and run containerized web apps at scale
 - **Document**: https://docs.aws.amazon.com/apprunner/latest/dg/what-is-apprunner.html
 
+  ![image](https://github.com/user-attachments/assets/3a22fb4c-0488-4d9d-88ee-b6081cfde4d9)
+
 #### AWS Batch
 - Run batch jobs at any scale
 - **Document**: https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html
-  
+
+  ![image](https://github.com/user-attachments/assets/6f53153d-eb3f-4f9f-99a4-69aea599ed4a)
+
 #### AWS Elastic Beanstalk
 - Run and manage web apps
 - **Document**: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html
@@ -103,34 +109,48 @@ There are more than 200 AWS services. Popular services are listed in short.
 #### AWS Outposts
 - Run AWS infrastructure on-premises
 - **Document**: https://docs.aws.amazon.com/outposts/latest/userguide/what-is-outposts.html 
-  
+
+  ![image](https://github.com/user-attachments/assets/5ca3081a-4fd6-4a3c-8f60-2350a1ae7eff)
+
 #### AWS Parallel Computing Service
 - Easily run HPC workloads at virtually any scale
 - **Document**: https://docs.aws.amazon.com/pcs/latest/userguide/what-is-service.html
-  
+
+  ![image](https://github.com/user-attachments/assets/4a2146a7-b0a2-4708-9990-d66ea26dafb3)
+
 #### AWS Serverless Application Repository
 - Discover, deploy, and publish serverless applications
 - **Document**: https://docs.aws.amazon.com/serverlessrepo/latest/devguide/what-is-serverlessrepo.html
 
+  ![image](https://github.com/user-attachments/assets/05ddbc6f-d00a-4426-be4f-824d2fbd2c39)
+
 #### AWS Wavelength
 - Deliver ultra-low latency applications for 5G devices
 - **Document**: https://docs.aws.amazon.com/wavelength/latest/developerguide/how-wavelengths-work.html
+
+  ![image](https://github.com/user-attachments/assets/dfa8b4b9-4be0-455f-b882-9e90be774d35)
   
 ### 2. Container Services  <a name="container"></a>
 #### Amazon Elastic Container Registry
 - Easily store, manage, and deploy container images
 - **Document**: https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html
-  
+
+  ![image](https://github.com/user-attachments/assets/970aab11-7b16-4666-b991-a0245ccc5ff6)
+
 #### Amazon Elastic Container Service (ECS)
 - Highly secure, reliable, and scalable way to run containers
 - **Document**: https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html
-  
+
+  ![image](https://github.com/user-attachments/assets/b84868c1-357e-46e9-90b0-cb69adf5c142)
+
 #### Amazon Elastic Kubernetes Service (EKS)
 - The most trusted way to run Kubernetes
 - Amazon EKS Anywhere: Kubernetes on your infrastructure
 - Amazon EKS Distro: Run consistent Kubernetes clusters
 - **Document**: https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html
-  
+
+  ![image](https://github.com/user-attachments/assets/269b7c36-cdcb-45e6-b971-44bd3d3a040f)
+
 #### AWS App2Container
 - Containerize and migrate existing applications
 - **Document**: https://docs.aws.amazon.com/app2container/latest/UserGuide/what-is-a2c.html
@@ -138,44 +158,64 @@ There are more than 200 AWS services. Popular services are listed in short.
 #### AWS App Runner 
 - Build and run containerized web apps at scale
 - **Document**: https://docs.aws.amazon.com/apprunner/latest/dg/what-is-apprunner.html
-  
+
+  ![image](https://github.com/user-attachments/assets/bd40d558-4d05-4d1e-a811-f4b252765fca)
+
 #### AWS Fargate
 - Serverless compute for containers
 - **ECS Fargate Document**: https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html
 - **EKS Fargate Document**: https://docs.aws.amazon.com/eks/latest/userguide/fargate-getting-started.html
+
+  ![image](https://github.com/user-attachments/assets/6f2b8ad4-ceaf-4062-9f8c-70dac3f0ef8a)
   
 ### 3. Storage Services <a name="storage"></a>
 #### Amazon Simple Storage Service (S3)
 - Scalable storage in the cloud
 - **Document**: https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
 
+  ![image](https://github.com/user-attachments/assets/7da8eaa2-9ef3-4ad5-abc9-db39b5319471)
+
 #### Amazon S3 Glacier storage classes
 - Low-cost archive storage in the cloud
 - **Document**: https://docs.aws.amazon.com/amazonglacier/latest/dev/introduction.html
+
+  ![image](https://github.com/user-attachments/assets/bfb0e51b-3865-4d4e-a51e-dd0b436f957d)
 
 #### Amazon Elastic Block Store (EBS)
 - EC2 block storage volumes
 - **Document**: https://docs.aws.amazon.com/ebs/latest/userguide/what-is-ebs.html
 
+  ![image](https://github.com/user-attachments/assets/72a7f9af-3701-4fef-b34c-4388ff3cffa4)
+
 #### Amazon Elastic File System (EFS)
 - Fully managed file system for EC2
 - **Document**: https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html
+
+  ![image](https://github.com/user-attachments/assets/d1edfac2-7327-4e69-9506-062bd1fd2781)
 
 #### Amazon FSx for Lustre
 - High-performance file system integrated with S3
 - **Document**: https://docs.aws.amazon.com/fsx/latest/LustreGuide/what-is.html
 
+  ![image](https://github.com/user-attachments/assets/23f90755-e706-4a18-8fcf-93562a7d6095)
+
 #### Amazon FSx for NetApp ONTAP
 - Fully managed storage built on NetApp’s popular ONTAP file system
 - **Document**: https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html
+
+  ![image](https://github.com/user-attachments/assets/0a7cbfb1-5cce-4e9a-8f9e-856423eb871e)
 
 #### Amazon FSx for OpenZFS
 - Fully managed storage built on the popular OpenZFS file system
 - **Document**: https://docs.aws.amazon.com/fsx/latest/OpenZFSGuide/what-is-fsx.html
 
+  ![image](https://github.com/user-attachments/assets/ad74c091-1847-4430-97db-41e183fda6c3)
+
 #### Amazon FSx for Windows File Server
 - Fully managed Windows native file system
 - **Document**: https://docs.aws.amazon.com/fsx/latest/WindowsGuide/what-is.html
+
+  ![image](https://github.com/user-attachments/assets/b6f01955-e0e7-46e7-8944-f42b6f7769a6)
 
 #### Amazon File Cache
 - High-speed cache for datasets stored anywhere
@@ -193,13 +233,17 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Accelerate moving offline data or remote storage to the cloud
 - **Document**: https://docs.aws.amazon.com/snowball/latest/developer-guide/whatisedge.html
 
+  ![image](https://github.com/user-attachments/assets/b3952505-33d2-4f85-bc45-5be4bf808a0a)
+
 #### AWS Storage Gateway
 - Hybrid storage integration
 - **S3 File Gateway Document**: https://docs.aws.amazon.com/filegateway/latest/files3/what-is-file-s3.html
 - **Volume Gateway Document**: https://docs.aws.amazon.com/storagegateway/latest/vgw/WhatIsStorageGateway.html
 - **Tape Gateway Document**: https://docs.aws.amazon.com/storagegateway/latest/tgw/WhatIsStorageGateway.html
 - **FSx File Gateway Document**: https://docs.aws.amazon.com/filegateway/latest/filefsxw/what-is-file-fsxw.html
-  
+
+  ![image](https://github.com/user-attachments/assets/a0d4624f-25e4-4ebb-88b7-fa201de2017c)
+
 ### 4. Database Services <a name="database"></a>
 #### Amazon Aurora
 - High performance managed relational database with full MySQL and PostgreSQL compatibility
@@ -385,6 +429,8 @@ There are more than 200 AWS services. Popular services are listed in short.
 #### AWS Compute Optimizer
 - Identify optimal AWS Compute resources
 - **Document**: https://docs.aws.amazon.com/compute-optimizer/latest/ug/what-is-compute-optimizer.html
+
+  ![image](https://github.com/user-attachments/assets/fdb2c41f-c867-4894-88c9-6e11c031236b)
 
 #### AWS Config
 - Track resources inventory and changes
@@ -606,6 +652,8 @@ There are more than 200 AWS services. Popular services are listed in short.
 - **Network Load Balancer Document**: https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html
 - **Gateway Load Balancer Document**: https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/introduction.html
 - **Classic Load Balancer Document**: https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/introduction.html
+
+  ![image](https://github.com/user-attachments/assets/42f0550d-4413-4000-ba7a-c133d9129bfe)
 
 ### 11. Migration Services <a name="migration"></a>
 #### AWS Migration Hub
