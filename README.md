@@ -487,92 +487,92 @@ There are more than 200 AWS services. Popular services are listed in short.
 
 #### AWS Certificate Manager
 - Provision, manage, and deploy SSL/TLS certificates
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html
 
 #### AWS CloudHSM
 - Hardware-based key storage for regulatory compliance
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/cloudhsm/latest/userguide/introduction.html
 
 #### AWS Directory Service
 - Host and manage active directory
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/directoryservice/latest/admin-guide/what_is.html
 
 #### AWS Firewall Manager
 - Central management of firewall rules
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/waf/latest/developerguide/fms-chapter.html
 
 #### AWS Key Management Service
 - Managed creation and control of encryption keys
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/kms/latest/developerguide/overview.html
 
 #### AWS Network Firewall
 - Network security to protect your VPCs
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/network-firewall/latest/developerguide/what-is-aws-network-firewall.html
 
 #### AWS Resource Access Manager
 - Simple, secure service to share AWS resources
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/resource-explorer/latest/userguide/welcome.html
 
 #### AWS Secrets Manager
 - Rotate, manage, and retrieve secrets
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html
 
 #### AWS Security Hub
 - Unified security and compliance center
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub.html
 
 #### AWS Shield
 - DDoS protection
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/waf/latest/developerguide/shield-chapter.html
 
 #### AWS IAM Identity Center
 - Manage single sign-on access to AWS accounts and apps
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html
 
 #### AWS WAF
 - Filter malicious web traffic
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html
 
 ### 10. Networking Services <a name="networking"></a>
 #### Amazon VPC
 - Isolated cloud resources
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
 
 #### Amazon VPC Lattice
 - Simplify service-to-service connectivity, security, and monitoring
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/vpc-lattice/latest/ug/what-is-vpc-lattice.html
 
 #### Amazon API Gateway
 - Build, deploy, and manage APIs
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html
 
 #### Amazon CloudFront
 - Global content delivery network
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html
 
 #### Amazon Route 53
 - Scalable domain name system (DNS)
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html
 
 #### AWS App Mesh
 - Monitor and control microservices
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/app-mesh/latest/userguide/what-is-app-mesh.html
 
 #### AWS Cloud Map
 - Service discovery for cloud resources
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/cloud-map/latest/dg/what-is-cloud-map.html
 
 #### AWS Cloud WAN
 - Easily build, manage, and monitor global wide area networks
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/aws-cloud-wan.html
 
 #### AWS Direct Connect
 - Dedicated network connection to AWS
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html
 
 #### AWS Global Accelerator
 - Improve application availability and performance
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/global-accelerator/latest/dg/what-is-global-accelerator.html
 
 #### AWS Private 5G
 - Easily deploy, manage, and scale a private cellular network
@@ -580,11 +580,12 @@ There are more than 200 AWS services. Popular services are listed in short.
 
 #### AWS PrivateLink
 - Securely access services hosted on AWS
-- **Document**:
+- Connect another VPC and VPC resources with interface endpoint
+- **Document**: https://docs.aws.amazon.com/vpc/latest/privatelink/what-is-privatelink.html
 
 #### AWS Transit Gateway
 - Easily scale VPC and account connections
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html
 
 #### AWS Verified Access
 - Provide secure access to corporate applications without a VPN
