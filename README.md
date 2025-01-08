@@ -98,7 +98,9 @@ There are more than 200 AWS services. Popular services are listed in short.
 
 #### AWS Amplify
 - Build, deploy, and host scalable web and mobile apps
-- **Document**: https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html 
+- **Document**: https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html
+
+  ![image](https://github.com/user-attachments/assets/0b5d3e6e-2d7c-46a4-9243-9ded17074b8e)
 
 #### AWS Lambda
 - Run code without thinking about servers
@@ -249,6 +251,8 @@ There are more than 200 AWS services. Popular services are listed in short.
 - High performance managed relational database with full MySQL and PostgreSQL compatibility
 - **Document**: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html
 
+  ![image](https://github.com/user-attachments/assets/ff0f99bf-72a8-46b7-b1ef-7cc3b16b9e34)
+
 #### Amazon Aurora DSQL
 - Fastest serverless distributed SQL database with active-active high availability
 - **Document**: https://docs.aws.amazon.com/aurora-dsql/latest/userguide/getting-started.html
@@ -261,33 +265,55 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Fully managed **Document** database
 - **Document**: https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html
 
+  ![image](https://github.com/user-attachments/assets/d688eafd-68d3-432a-b53b-6f4b8c62c449)
+
 #### Amazon DynamoDB
 - Managed NoSQL database
 - **Document**: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html
+
+  ![image](https://github.com/user-attachments/assets/de1a9525-7f85-4534-b837-8f011940b07b)
 
 #### Amazon ElastiCache
 - In-memory caching service for Valkey, Memcached, and Redis OSS
 - **Document**: https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.html
 
+  ![image](https://github.com/user-attachments/assets/09293da6-3743-4c4e-81d9-f5e1c8e52f54)
+
 #### Amazon Keyspaces (for Apache Cassandra)
 - Managed Cassandra-compatible database
 - **Document**: https://docs.aws.amazon.com/keyspaces/latest/devguide/what-is-keyspaces.html
+
+  ![image](https://github.com/user-attachments/assets/d269501a-1ecd-4421-937c-8410d6aca37e)
 
 #### Amazon MemoryDB
 - Valkey- and Redis OSS-compatible, durable, in-memory database with ultra-fast performance
 - **Document**: https://docs.aws.amazon.com/memorydb/latest/devguide/what-is-memorydb.html
 
+  ![image](https://github.com/user-attachments/assets/43a87fad-de4b-47e8-ae66-d1b30d8650fc)
+
 #### Amazon Neptune
 - Fully managed graph database service
 - **Document**: https://docs.aws.amazon.com/neptune/latest/userguide/intro.html
+
+  ![image](https://github.com/user-attachments/assets/d76168fb-cfd7-4274-bf2d-9c879d90b95b)
 
 #### Amazon RDS
 - Managed relational database service for PostgreSQL, MySQL, MariaDB, SQL Server, Oracle, and Db2
 - **Document**: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html
 
+  ![image](https://github.com/user-attachments/assets/fdc8224e-991f-4673-bd30-8158158e0c6c)
+
 #### Amazon Timestream
 - Fully managed time series database
 - **Document**: https://docs.aws.amazon.com/timestream/latest/developerguide/what-is-timestream.html
+
+  ![image](https://github.com/user-attachments/assets/d8ce9ecd-fbf7-4e97-a2e2-8491b5a36703)
+
+#### Amazon Redshift
+- Fast, simple, cost-effective data warehousing
+- **Document**: https://docs.aws.amazon.com/redshift/latest/gsg/new-user-serverless.html
+
+  ![image](https://github.com/user-attachments/assets/ef4b1c88-42f8-4163-b16a-e65531df1ea6)  
 
 ### 5. Data Analytics Services <a name="dataanalytics"></a>
 #### Amazon Athena
@@ -326,9 +352,7 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Fully managed Apache Kafka service
 - **Document**: https://docs.aws.amazon.com/msk/latest/developerguide/what-is-msk.html
 
-#### Amazon Redshift
-- Fast, simple, cost-effective data warehousing
-- **Document**: https://docs.aws.amazon.com/redshift/latest/gsg/new-user-serverless.html
+
 
 #### Amazon QuickSight
 - Fast business analytics service
