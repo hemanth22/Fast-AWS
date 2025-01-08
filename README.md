@@ -576,7 +576,7 @@ There are more than 200 AWS services. Popular services are listed in short.
 
 #### AWS Private 5G
 - Easily deploy, manage, and scale a private cellular network
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/private-networks/latest/userguide/what-is-private-5g.html
 
 #### AWS PrivateLink
 - Securely access services hosted on AWS
@@ -589,122 +589,126 @@ There are more than 200 AWS services. Popular services are listed in short.
 
 #### AWS Verified Access
 - Provide secure access to corporate applications without a VPN
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/verified-access/latest/ug/what-is-verified-access.html
 
-#### AWS VPN
+#### AWS Client VPN
 - Securely access your network resources
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/vpn/latest/clientvpn-user/client-vpn-user-what-is.html
+
+#### AWS Site-to-Site VPN
+-  Enable access to your remote network from your VPC by creating an AWS Site-to-Site VPN connection, and configuring routing to pass traffic through the connection.
+- **Document**: https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html
 
 #### Elastic Load Balancing (ELB)
 - Distribute incoming traffic across multiple targets
-- **Document**:
+- **Elastic Load Balancing Document**: https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html
+- **Application Load Balancer Document**: https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html
+- **Network Load Balancer Document**: https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html
+- **Gateway Load Balancer Document**: https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/introduction.html
+- **Classic Load Balancer Document**: https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/introduction.html
 
 ### 11. Migration Services <a name="migration"></a>
 #### AWS Migration Hub
 - Track migrations from a single place
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/migrationhub/latest/ug/whatishub.html
 
 #### AWS Application Discovery Service
 - Discover on-premises applications to streamline migration
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html
 
 #### AWS Application Migration Service (MGN)
 - Move and improve your on-premises and cloud-based applications
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/mgn/latest/ug/what-is-application-migration-service.html
 
 #### AWS Database Migration Service
 - Migrate databases with minimal downtime
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/dms/latest/userguide/Welcome.html
 
 #### AWS DataSync
 - Simple, fast, online data transfer
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/datasync/latest/userguide/what-is-datasync.html
 
 #### AWS Migration Acceleration Program
 - Comprehensive and proven cloud migration program
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/migrationhub/latest/launchguide/map.html
 
 #### AWS Optimization and Licensing Assessment
 - Optimize your license and compute costs before and after migration
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/prescriptive-guidance/latest/optimize-costs-microsoft-workloads/aws-ola.html
 
 #### AWS Transfer Family
 - Fully managed SFTP, FTPS, FTP, and AS2 service
-- **Document**:
-
-#### Migration Evaluator (Formerly TSO Logic)
-- Create a business case for cloud migration
-- **Document**:
-
-#### AWS for VMware
-- Migrate and modernize VMware-based workloads
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/transfer/latest/userguide/what-is-aws-transfer-family.html
 
 ### 12. Internet of Things Services <a name="internetofthings"></a>
-#### AWS IoT Button
-- Cloud programmable dash button
-- **Document**:
-
 #### AWS IoT Core
 - Connect devices to the cloud
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html
 
 #### AWS IoT Device Defender
 - Security management for IoT devices
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/iot-device-defender/latest/devguide/what-is-device-defender.html
 
-#### AWS IoT Device Management
-- Onboard, organize, and remotely manage IoT devices
-- **Document**:
+#### AWS IoT Fleet Hub for AWS IoT Device Management
+- Monitor device fleets in near-real time.
+- Set alerts to notify your technicians about unusual behavior.
+- Running jobs.
+- **Document**: https://docs.aws.amazon.com/iot/latest/fleethubuserguide/what-is-aws-iot-monitor.html
 
 #### AWS IoT Events
 - IoT event detection and response
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/iotevents/latest/developerguide/what-is-iotevents.html
 
 #### AWS IoT FleetWise
 - Easily collect, transform, and transfer vehicle data to the cloud in near-real time
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/iot-fleetwise/latest/developerguide/what-is-iotfleetwise.html
 
 #### AWS IoT Greengrass
 - Local compute, messaging, and sync for devices
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/greengrass/v2/developerguide/what-is-iot-greengrass.html
 
 #### Amazon Kinesis Video Streams
 - Capture, process, and analyze real-time video streams
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/what-is-kinesis-video.html
 
 #### FreeRTOS
 - Real-time operating system for microcontrollers
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/freertos/latest/userguide/what-is-freertos.html
 
 #### Amazon Location Service
 - Securely and easily add location data to applications
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/location/
 
 #### AWS Device Farm
 - Test Android, iOS, and web apps on real devices in the AWS cloud
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/devicefarm/latest/developerguide/welcome.html
 
 ### 13. Artificial Intelligence Services <a name="artificialintelligence"></a>
 #### Amazon Q
 - Generative AI-powered assistant for work
-- **Document**:
+- **Amazon Q Business Document**: https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/what-is.html
+- **Amazon Q Developer Document**: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html
 
 #### Amazon Bedrock
 - Build with foundation models
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
 
 #### Amazon SageMaker AI
 - Build, train, and deploy machine learning models at scale
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html
+
+#### Amazon SageMaker Unified Studio
+- It is a unified development experience that brings together AWS data, analytics, artificial intelligence (AI), and machine learning (ML) services.
+- It provides a place to build, deploy, execute, and monitor end-to-end workflows from a single interface. 
+- **Document**: https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/what-is-sagemaker-unified-studio.html
 
 #### AWS App Studio 
 - Fastest and easiest way to build enterprise-grade applications
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/appstudio/latest/userguide/welcome.html
 
 #### Amazon Augmented AI
 - Easily implement human review of ML predictions
-- **Document**:
+- **Document**: https://docs.aws.amazon.com/sagemaker/latest/dg/a2i-use-augmented-ai-a2i-human-review-loops.html?icmpid=docs_a2i_lp
 
 #### Amazon CodeGuru
 - Find your most expensive lines of code
