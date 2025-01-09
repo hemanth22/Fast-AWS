@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/92af185f-76ca-4861-8bd2-531424cedbde)![image](https://github.com/user-attachments/assets/44ac023d-1142-46d8-b5f5-79b40b64d9bb)# Fast-AWS
+# Fast-AWS
 This repo covers AWS Hands-on Labs for different AWS services.
 
 ## Why was this repo created?
@@ -916,10 +916,13 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Easily collect, transform, and transfer vehicle data to the cloud in near-real time
 - **Document**: https://docs.aws.amazon.com/iot-fleetwise/latest/developerguide/what-is-iotfleetwise.html
 
+  ![image](https://github.com/user-attachments/assets/4c57a7f8-f8c2-4373-83e1-9137d71e50b4)
 
 #### AWS IoT Greengrass
 - Local compute, messaging, and sync for devices
 - **Document**: https://docs.aws.amazon.com/greengrass/v2/developerguide/what-is-iot-greengrass.html
+
+  ![image](https://github.com/user-attachments/assets/bcedd14d-fe95-4fab-9d0a-a20f8342d608)
 
 #### Amazon Kinesis Video Streams
 - Capture, process, and analyze real-time video streams
@@ -928,6 +931,8 @@ There are more than 200 AWS services. Popular services are listed in short.
 #### FreeRTOS
 - Real-time operating system for microcontrollers
 - **Document**: https://docs.aws.amazon.com/freertos/latest/userguide/what-is-freertos.html
+
+  ![image](https://github.com/user-attachments/assets/b0f59cb7-cc08-4869-a875-5ca7dd2a39a6)
 
 #### Amazon Location Service
 - Securely and easily add location data to applications
