@@ -731,66 +731,98 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Isolated cloud resources
 - **Document**: https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
 
+  ![image](https://github.com/user-attachments/assets/72183235-913a-451a-966b-c55fd225149c)
+
 #### Amazon VPC Lattice
 - Simplify service-to-service connectivity, security, and monitoring
 - **Document**: https://docs.aws.amazon.com/vpc-lattice/latest/ug/what-is-vpc-lattice.html
+
+  ![image](https://github.com/user-attachments/assets/8737afe4-79c6-4e30-be41-4c0ec1d7e50e)
 
 #### Amazon API Gateway
 - Build, deploy, and manage APIs
 - **Document**: https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html
 
+  ![image](https://github.com/user-attachments/assets/bfa8c214-c2db-4917-af1f-b183c9402578)
+
 #### Amazon CloudFront
 - Global content delivery network
 - **Document**: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html
+
+  ![image](https://github.com/user-attachments/assets/94d188bd-6c64-43ce-8c27-44f371cf7659)
 
 #### Amazon Route 53
 - Scalable domain name system (DNS)
 - **Document**: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html
 
+  ![image](https://github.com/user-attachments/assets/821a916d-0a5e-46f9-bd67-7357d92fff14)
+
 #### AWS App Mesh
 - Monitor and control microservices
 - **Document**: https://docs.aws.amazon.com/app-mesh/latest/userguide/what-is-app-mesh.html
+
+  ![image](https://github.com/user-attachments/assets/2b16dc07-b981-4fd6-b9ce-5ee1d9fd76ca)
 
 #### AWS Cloud Map
 - Service discovery for cloud resources
 - **Document**: https://docs.aws.amazon.com/cloud-map/latest/dg/what-is-cloud-map.html
 
+  ![image](https://github.com/user-attachments/assets/220a6eb0-b16b-4ab0-b5cd-e0c4d7b7984a)
+
 #### AWS Cloud WAN
 - Easily build, manage, and monitor global wide area networks
 - **Document**: https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/aws-cloud-wan.html
+
+  ![image](https://github.com/user-attachments/assets/46b373c6-20d6-4bb9-85be-ae14e1de72fa)
 
 #### AWS Direct Connect
 - Dedicated network connection to AWS
 - **Document**: https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html
 
+  ![image](https://github.com/user-attachments/assets/04c36b7e-4ce3-4c17-9020-d8a321fc9985)
+
 #### AWS Global Accelerator
 - Improve application availability and performance
 - **Document**: https://docs.aws.amazon.com/global-accelerator/latest/dg/what-is-global-accelerator.html
 
+  ![image](https://github.com/user-attachments/assets/047e1f91-f1ea-40c3-b21c-de984fdb2781)
+
 #### AWS Private 5G
 - Easily deploy, manage, and scale a private cellular network
 - **Document**: https://docs.aws.amazon.com/private-networks/latest/userguide/what-is-private-5g.html
+
+  ![image](https://github.com/user-attachments/assets/582aa03b-5555-4227-8ad0-fc4b062c9d60)
 
 #### AWS PrivateLink
 - Securely access services hosted on AWS
 - Connect another VPC and VPC resources with interface endpoint
 - **Document**: https://docs.aws.amazon.com/vpc/latest/privatelink/what-is-privatelink.html
 
+  ![image](https://github.com/user-attachments/assets/3cf7d90a-bf62-4d43-9379-f12d2100c847)
+
 #### AWS Transit Gateway
 - Easily scale VPC and account connections
 - **Document**: https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html
+
+  ![image](https://github.com/user-attachments/assets/84ca2822-d875-48dc-9df8-44b210ed527a)
 
 #### AWS Verified Access
 - Provide secure access to corporate applications without a VPN
 - **Document**: https://docs.aws.amazon.com/verified-access/latest/ug/what-is-verified-access.html
 
+  ![image](https://github.com/user-attachments/assets/20cff696-0179-4858-85b2-abed09e64ea9)
+
 #### AWS Client VPN
 - Securely access your network resources
 - **Document**: https://docs.aws.amazon.com/vpn/latest/clientvpn-user/client-vpn-user-what-is.html
 
+  ![image](https://github.com/user-attachments/assets/d67c3eb6-da70-471b-922b-a5b97f56e3d3)
+
 #### AWS Site-to-Site VPN
 -  Enable access to your remote network from your VPC by creating an AWS Site-to-Site VPN connection, and configuring routing to pass traffic through the connection.
 - **Document**: https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html
+
+  ![image](https://github.com/user-attachments/assets/cbe8b866-b871-4b9f-b796-7761bfbd550c)
 
 #### Elastic Load Balancing (ELB)
 - Distribute incoming traffic across multiple targets
@@ -800,28 +832,38 @@ There are more than 200 AWS services. Popular services are listed in short.
 - **Gateway Load Balancer Document**: https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/introduction.html
 - **Classic Load Balancer Document**: https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/introduction.html
 
-  ![image](https://github.com/user-attachments/assets/42f0550d-4413-4000-ba7a-c133d9129bfe)
+  ![image](https://github.com/user-attachments/assets/25e62a6d-c2f5-45cf-a47d-79ec76bb3e6b)
 
 ### 11. Migration Services <a name="migration"></a>
 #### AWS Migration Hub
 - Track migrations from a single place
 - **Document**: https://docs.aws.amazon.com/migrationhub/latest/ug/whatishub.html
 
+  ![image](https://github.com/user-attachments/assets/b5c46b01-0ab9-4703-88cf-038e15807472)
+
 #### AWS Application Discovery Service
 - Discover on-premises applications to streamline migration
 - **Document**: https://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html
+
+  ![image](https://github.com/user-attachments/assets/8d8af72b-aa64-4a41-a49f-c0e6c1c61eae)
 
 #### AWS Application Migration Service (MGN)
 - Move and improve your on-premises and cloud-based applications
 - **Document**: https://docs.aws.amazon.com/mgn/latest/ug/what-is-application-migration-service.html
 
+  ![image](https://github.com/user-attachments/assets/d54db412-d5a3-4087-9e5d-c9d8ea872ccb)
+
 #### AWS Database Migration Service
 - Migrate databases with minimal downtime
 - **Document**: https://docs.aws.amazon.com/dms/latest/userguide/Welcome.html
 
+  ![image](https://github.com/user-attachments/assets/8440b854-040c-4c6d-acce-b4c52f5c0c69)
+
 #### AWS DataSync
 - Simple, fast, online data transfer
 - **Document**: https://docs.aws.amazon.com/datasync/latest/userguide/what-is-datasync.html
+
+  ![image](https://github.com/user-attachments/assets/2c404f24-127e-4b14-847b-95322db11ec1)
 
 #### AWS Migration Acceleration Program
 - Comprehensive and proven cloud migration program
@@ -834,6 +876,14 @@ There are more than 200 AWS services. Popular services are listed in short.
 #### AWS Transfer Family
 - Fully managed SFTP, FTPS, FTP, and AS2 service
 - **Document**: https://docs.aws.amazon.com/transfer/latest/userguide/what-is-aws-transfer-family.html
+
+  ![image](https://github.com/user-attachments/assets/6c5f8e91-8f02-46ad-b68e-5067a94a1222)
+
+#### AWS Snowball
+- Accelerate moving offline data or remote storage to the cloud
+- **Document**: https://docs.aws.amazon.com/snowball/latest/developer-guide/whatisedge.html
+
+  ![image](https://github.com/user-attachments/assets/d5d0bbe3-6dea-4ec2-a8ac-5aeec83d71b8)
 
 ### 12. Internet of Things Services <a name="internetofthings"></a>
 #### AWS IoT Core
