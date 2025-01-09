@@ -952,13 +952,19 @@ There are more than 200 AWS services. Popular services are listed in short.
 - **Amazon Q Business Document**: https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/what-is.html
 - **Amazon Q Developer Document**: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html
 
+  ![image](https://github.com/user-attachments/assets/425c6210-d353-44c5-8b7d-afc26cdbd9c4)
+
 #### Amazon Bedrock
 - Build with foundation models
 - **Document**: https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
 
+  ![image](https://github.com/user-attachments/assets/98329a92-a22f-4e0a-a33d-11e0117a2e43)
+
 #### Amazon SageMaker AI
 - Build, train, and deploy machine learning models at scale
 - **Document**: https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html
+
+  ![image](https://github.com/user-attachments/assets/af9fd837-febd-48b9-8f4b-deb2605eddf4)
 
 #### Amazon SageMaker Unified Studio
 - It is a unified development experience that brings together AWS data, analytics, artificial intelligence (AI), and machine learning (ML) services.
@@ -973,6 +979,8 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Easily implement human review of ML predictions
 - **Document**: https://docs.aws.amazon.com/sagemaker/latest/dg/a2i-use-augmented-ai-a2i-human-review-loops.html?icmpid=docs_a2i_lp
 
+  ![image](https://github.com/user-attachments/assets/ef81bb63-95a6-411c-8e96-6c1af9acd9f5)
+
 #### Amazon CodeGuru
 - Find your most expensive lines of code
 - **CodeGuru Security Document**: https://docs.aws.amazon.com/codeguru/latest/security-ug/what-is-codeguru-security.html
@@ -980,17 +988,25 @@ There are more than 200 AWS services. Popular services are listed in short.
 - **CodeGuru Reviewer Document**: https://docs.aws.amazon.com/codeguru/latest/reviewer-ug/welcome.html
 - **Bugbust Document**: https://docs.aws.amazon.com/codeguru/latest/bugbust-ug/what-is-aws-bugbust.html
 
+  ![image](https://github.com/user-attachments/assets/3219337d-e112-4e94-b0f7-5bf3989fce40)
+
 #### Amazon Comprehend
 - Discover insights and relationships in text
 - **Document**: https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html
+
+  ![image](https://github.com/user-attachments/assets/6bf263a6-0949-448a-9257-2a19d6a279b9)
 
 #### Amazon Comprehend Medical
 - Extract health data
 - **Document**: https://docs.aws.amazon.com/comprehend-medical/latest/dev/comprehendmedical-welcome.html
 
+  ![image](https://github.com/user-attachments/assets/1b4c4876-d34d-4666-b484-f825e448316f)
+
 #### Amazon Fraud Detector
 - Detect more online fraud faster
 - **Document**: https://docs.aws.amazon.com/frauddetector/latest/ug/what-is-frauddetector.html
+
+  ![image](https://github.com/user-attachments/assets/172bf551-dc87-4033-9e3f-a0186a199d07)
 
 #### Amazon Kendra
 - Reinvent enterprise search with ML
@@ -998,34 +1014,53 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Unlike traditional keyword-based search, Amazon Kendra uses semantic and contextual similarity—and ranking capabilities—to decide whether a text chunk or document is relevant to a retrieval query.
 - **Document**: https://docs.aws.amazon.com/kendra/latest/dg/what-is-kendra.html
 
+  ![image](https://github.com/user-attachments/assets/f00db50a-a5a5-4f8e-86fb-8b3e02ea843f)
+
 #### Amazon Lex
 - Build voice and text chatbots
 - **Document**: https://docs.aws.amazon.com/lexv2/latest/dg/what-is.html
+
+  ![image](https://github.com/user-attachments/assets/2d96458b-f3c4-4b93-b27a-13428679940f)
 
 #### AWS HealthLake
 - Make sense of health data
 - **Document**: https://docs.aws.amazon.com/healthlake/latest/devguide/what-is.html
 
+  ![image](https://github.com/user-attachments/assets/75ccc247-6457-4832-8551-59ab89df0e45)
+
 #### Amazon Personalize
 - Build real-time recommendations into your applications
 - **Document**: https://docs.aws.amazon.com/personalize/latest/dg/what-is-personalize.html
+
+  ![image](https://github.com/user-attachments/assets/80d82681-b6d5-4ea2-a258-60ce9587678b)
 
 #### Amazon Polly
 - Turn text into life-like speech
 - **Document**: https://docs.aws.amazon.com/polly/latest/dg/what-is.html
 
+  ![image](https://github.com/user-attachments/assets/89097877-52e8-4579-80e8-47a5998e228c)
+
 #### Amazon Rekognition
 - Analyze image and video
 - **Document**: https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html
+
+  ![image](https://github.com/user-attachments/assets/2d0e9698-adff-4a75-8b1a-f76a8ba6d08c)
 
 #### Amazon Textract
 - Extract text and data from **Document**s
 - **Document**: https://docs.aws.amazon.com/textract/latest/dg/what-is.html
 
+  ![image](https://github.com/user-attachments/assets/96758965-8986-4276-acd9-71d1447b44bc)
+
 #### Amazon Translate
 - Natural and fluent language translation
 - **Document**: https://docs.aws.amazon.com/translate/latest/dg/what-is.html
 
+  ![image](https://github.com/user-attachments/assets/e3371ec4-4745-4f06-8620-6369631f8c42)
+
 #### Amazon Transcribe
 - Automatic speech recognition
 - **Document**: https://docs.aws.amazon.com/transcribe/latest/dg/what-is.html
+
+  ![image](https://github.com/user-attachments/assets/d4c9646d-85fa-4593-90d4-5c932631ae6a)
+
