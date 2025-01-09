@@ -1,4 +1,4 @@
-# Fast-AWS
+![image](https://github.com/user-attachments/assets/92af185f-76ca-4861-8bd2-531424cedbde)![image](https://github.com/user-attachments/assets/44ac023d-1142-46d8-b5f5-79b40b64d9bb)# Fast-AWS
 This repo covers AWS Hands-on Labs for different AWS services.
 
 ## Why was this repo created?
@@ -890,9 +890,13 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Connect devices to the cloud
 - **Document**: https://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html
 
+  ![image](https://github.com/user-attachments/assets/4bdd506f-319d-4faa-ad22-e6cca3c37314)
+
 #### AWS IoT Device Defender
 - Security management for IoT devices
 - **Document**: https://docs.aws.amazon.com/iot-device-defender/latest/devguide/what-is-device-defender.html
+
+  ![image](https://github.com/user-attachments/assets/08dcd4cf-660b-4d2a-808e-2fff381de3bf)
 
 #### AWS IoT Fleet Hub for AWS IoT Device Management
 - Monitor device fleets in near-real time.
@@ -900,13 +904,18 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Running jobs.
 - **Document**: https://docs.aws.amazon.com/iot/latest/fleethubuserguide/what-is-aws-iot-monitor.html
 
+  ![image](https://github.com/user-attachments/assets/c4d838a1-0cba-4ab1-b891-b224afcf1657)
+
 #### AWS IoT Events
 - IoT event detection and response
 - **Document**: https://docs.aws.amazon.com/iotevents/latest/developerguide/what-is-iotevents.html
 
+  ![image](https://github.com/user-attachments/assets/60b1aee1-75f4-4344-837a-b295259b7565)
+
 #### AWS IoT FleetWise
 - Easily collect, transform, and transfer vehicle data to the cloud in near-real time
 - **Document**: https://docs.aws.amazon.com/iot-fleetwise/latest/developerguide/what-is-iotfleetwise.html
+
 
 #### AWS IoT Greengrass
 - Local compute, messaging, and sync for devices
