@@ -594,6 +594,8 @@ There are more than 200 AWS services. Popular services are listed in short.
 - Securely manage access to services and resources
 - **Document**: https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html
 
+  ![image](https://github.com/user-attachments/assets/efa9d049-501e-43a7-bff4-fc24f2d24db0)
+
 #### Amazon Cognito
 - Identity management for your apps. It handles user authentication and authorization for your web and mobile apps.
 - With user pools, you can easily and securely add sign-up and sign-in functionality to your apps.
@@ -602,85 +604,127 @@ There are more than 200 AWS services. Popular services are listed in short.
 - **Identity Pools Document**: https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-identity.html
 - **Cognito Sync Document**: https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-sync.html
 
+  ![image](https://github.com/user-attachments/assets/f0425ffd-cd4c-430c-bb93-52414971dd9b)
+
 #### Amazon Detective
 - Investigate potential security issues
 - **Document**: https://docs.aws.amazon.com/detective/latest/userguide/what-is-detective.html
+
+  ![image](https://github.com/user-attachments/assets/ed33e15a-8fcc-40b0-9c1c-634e4a007ba1)
 
 #### Amazon GuardDuty
 - Managed threat detection service
 - **Document**: https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html
 
+  ![image](https://github.com/user-attachments/assets/e16bdb0d-7e48-46ad-ad7e-649d534f41b1)
+
 #### Amazon Inspector
 - Automate vulnerability management
 - **Document**: https://docs.aws.amazon.com/inspector/latest/user/what-is-inspector.html
+
+  ![image](https://github.com/user-attachments/assets/7055a02a-34bc-4ab3-849b-2b8a451d41fc)
 
 #### Amazon Macie
 - Discover and protect your sensitive data at scale
 - **Document**: https://docs.aws.amazon.com/macie/latest/user/what-is-macie.html
 
+  ![image](https://github.com/user-attachments/assets/8e500aa9-2ed4-40e7-87a1-646c92d83f20)
+
 #### Amazon Security Lake
 - Automatically centralize your security data with a few clicks
 - **Document**: https://docs.aws.amazon.com/security-lake/latest/userguide/what-is-security-lake.html
+
+  ![image](https://github.com/user-attachments/assets/bc81e0be-075e-4013-aa7b-6fc9c1ba605d)
 
 #### Amazon Verified Permissions
 - Fine-grained permissions and authorization for your applications
 - **Document**: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/what-is-avp.html
 
+  ![image](https://github.com/user-attachments/assets/58fb3f17-ee0b-48a6-a1c8-5c9f9d094ed4)
+
 #### AWS Artifact
 - On-demand access to AWS’ compliance reports
 - **Document**: https://docs.aws.amazon.com/artifact/latest/ug/what-is-aws-artifact.html
+
+  ![image](https://github.com/user-attachments/assets/462197de-7d4f-4351-9db3-3c8796c2db19)
 
 #### AWS Audit Manager
 - Continuously audit your AWS usage
 - **Document**: https://docs.aws.amazon.com/audit-manager/latest/userguide/what-is.html
 
+  ![image](https://github.com/user-attachments/assets/0e33f86c-aeaf-491c-98ed-547dbab4405e)
+
 #### AWS Certificate Manager
 - Provision, manage, and deploy SSL/TLS certificates
 - **Document**: https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html
+
+  ![image](https://github.com/user-attachments/assets/13497ba5-4044-4244-a2c3-9371cee2fae8)
 
 #### AWS CloudHSM
 - Hardware-based key storage for regulatory compliance
 - **Document**: https://docs.aws.amazon.com/cloudhsm/latest/userguide/introduction.html
 
+  ![image](https://github.com/user-attachments/assets/ee6b9b67-0555-457b-b88a-df0bc607c2ac)
+
 #### AWS Directory Service
 - Host and manage active directory
 - **Document**: https://docs.aws.amazon.com/directoryservice/latest/admin-guide/what_is.html
+
+  ![image](https://github.com/user-attachments/assets/0ddf4ff3-2c25-4c36-9580-7d0358d2e7be)
 
 #### AWS Firewall Manager
 - Central management of firewall rules
 - **Document**: https://docs.aws.amazon.com/waf/latest/developerguide/fms-chapter.html
 
+  ![image](https://github.com/user-attachments/assets/5eb00421-fc9e-4561-b5a2-08438eb49fcd)
+
 #### AWS Key Management Service
 - Managed creation and control of encryption keys
 - **Document**: https://docs.aws.amazon.com/kms/latest/developerguide/overview.html
+
+  ![image](https://github.com/user-attachments/assets/eb076cc7-efd5-4df9-b0a7-815848b9b19b)
 
 #### AWS Network Firewall
 - Network security to protect your VPCs
 - **Document**: https://docs.aws.amazon.com/network-firewall/latest/developerguide/what-is-aws-network-firewall.html
 
+  ![image](https://github.com/user-attachments/assets/cdc60d40-7f02-494f-a8db-6addf0bc7e82)
+
 #### AWS Resource Access Manager
 - Simple, secure service to share AWS resources
 - **Document**: https://docs.aws.amazon.com/resource-explorer/latest/userguide/welcome.html
+
+  ![image](https://github.com/user-attachments/assets/08d9e261-aeb6-414a-9168-08b5071a274c)
 
 #### AWS Secrets Manager
 - Rotate, manage, and retrieve secrets
 - **Document**: https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html
 
+  ![image](https://github.com/user-attachments/assets/02287a44-2061-41dc-a8f5-a1395eaef97a)
+
 #### AWS Security Hub
 - Unified security and compliance center
 - **Document**: https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub.html
+
+  ![image](https://github.com/user-attachments/assets/b316495f-753c-4a28-9478-155678c33bfb)
 
 #### AWS Shield
 - DDoS protection
 - **Document**: https://docs.aws.amazon.com/waf/latest/developerguide/shield-chapter.html
 
+  ![image](https://github.com/user-attachments/assets/c8a242c5-3142-4701-9ee4-143411b25308)
+
 #### AWS IAM Identity Center
 - Manage single sign-on access to AWS accounts and apps
 - **Document**: https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html
 
+  ![image](https://github.com/user-attachments/assets/4cc46a9d-72fc-4885-a4a0-c30fb2db0ecd)
+
 #### AWS WAF
 - Filter malicious web traffic
 - **Document**: https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html
+
+  ![image](https://github.com/user-attachments/assets/7ad267b9-206e-490f-a5c8-41a59a8f7129)
 
 ### 10. Networking Services <a name="networking"></a>
 #### Amazon VPC
