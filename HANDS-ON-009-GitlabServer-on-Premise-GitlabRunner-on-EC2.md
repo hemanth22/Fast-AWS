@@ -1,4 +1,4 @@
-## HANDS-ON-09: Provisioned Gitlab Runner on EC2, connection to Gitlab Server using Docker on-premise (from home to EC2 without VPN) 
+## HANDS-ON-009: Provisioned Gitlab Runner on EC2, connection to Gitlab Server using Docker on-premise (from home to EC2 without VPN) 
 
 This sample shows:
 - how to run Gitlab Server using Docker on WSL2 on-premise,
@@ -8,12 +8,7 @@ This sample shows:
 - how to register Gitlab runner on EC2 to Gitlab Server on-premise (in Home),
 - how to run job on EC2 and returns artifacts to Gitlab Server on-premise (in Home).
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/gitlabserver-on-premise-runner-on-EC2/
-
-### Prerequisite
-
-- You should have a look following lab: 
-  - [LAB-00: Terraform Install, AWS Configuration with Terraform](https://github.com/omerbsezer/Fast-Terraform/blob/main/LAB00-Terraform-Install-AWS-Configuration.md)
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-009-gitlabserver-on-premise-runner-on-EC2
 
 ## Steps
 
@@ -43,7 +38,7 @@ services:
     shm_size: '256m'
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/gitlabserver-on-premise-runner-on-EC2/docker-compose.yml
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-009-gitlabserver-on-premise-runner-on-EC2/docker-compose.yml
 
 - Run the following in where the dockercompose.yml is present:
 
@@ -96,7 +91,7 @@ netsh interface portproxy add v4tov4 listenport=150 connectaddress=127.0.0.1 con
 
 - Create EC2 on AWS with:
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/gitlabserver-on-premise-runner-on-EC2/main.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-009-gitlabserver-on-premise-runner-on-EC2/main.tf
 
 ```
 terraform init
