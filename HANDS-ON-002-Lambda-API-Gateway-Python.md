@@ -1,4 +1,4 @@
-## HANDS-ON-02: Provisioning Lambda, API Gateway and Reaching HTML Page in Python Code From Browser
+## HANDS-ON-002: Provisioning Lambda, API Gateway and Reaching HTML Page in Python Code From Browser
 
 This sample shows:
 - how to create Lambda function with Python code,
@@ -14,7 +14,7 @@ There are 3 main parts:
 - api-gateway.tf: It includes api-gateway resource and method definition, lambda - api gateway connection, deploying api gateway, api-gateway deployment URL as output
 - code/main.py: It includes basic lambda handler with basic HTML code, and REST API response. 
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/tree/main/samples/lambda-role-policy-apigateway-python
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-002-lambda-apigateway-python
 
 ### Prerequisite
 
@@ -27,7 +27,7 @@ There are 3 main parts:
   - **Terraform Configuration:** Specifies the AWS provider version and Terraform version.
   - **IAM Role and Policy:** Creates an IAM role for the Lambda function and attaches a policy that allows the Lambda function to write logs to CloudWatch.
   - **Zipping Lambda Code:** Prepares the Python code by zipping it into a format that Lambda can execute.
-  - **Lambda Function:** Creates a Lambda function using the specified IAM role, code, and runtime.
+  - **Lambda Function:** Creates a Lambda function using the specified IAM role, , and runtime.
   - **API Gateway Integration:** Grants API Gateway permission to invoke the Lambda function.
  
 ``` 
@@ -91,16 +91,16 @@ resource "aws_iam_role_policy_attachment" "attach_iam_policy_to_iam_role" {
   policy_arn  = aws_iam_policy.iam_policy_for_lambda.arn
 }
 
-# Zipping the code, lambda wants the code as zip file
-data "archive_file" "zip_the_python_code" {
+# Zipping the , lambda wants the  as zip file
+data "archive_file" "zip_the_python_" {
  type        = "zip"
- source_dir  = "${path.module}/code/"
- output_path = "${path.module}/code/main.zip"
+ source_dir  = "${path.module}//"
+ output_path = "${path.module}//main.zip"
 }
 
 # Lambda Function, in terraform ${path.module} is the current directory.
 resource "aws_lambda_function" "lambda_function" {
- filename                       = "${path.module}/code/main.zip"
+ filename                       = "${path.module}//main.zip"
  function_name                  = "Lambda-Function"
  role                           = aws_iam_role.lambda_role.arn
  handler                        = "main.lambda_handler"
@@ -119,7 +119,7 @@ resource "aws_lambda_permission" "apigw" {
 }
 ``` 
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/lambda-role-policy-apigateway-python/lambda.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-002-lambda-apigateway-python/lambda.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/230722794-2ba9d223-90f3-4634-8fba-d5290ecf6e8a.png)
 
