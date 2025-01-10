@@ -1,4 +1,4 @@
-## HANDS-ON-06: Provisioning EKS with Managed Nodes using Blueprint and Modules
+## HANDS-ON-006: Provisioning EKS with Managed Nodes using Blueprint and Modules
 
 This sample shows:
 - how to create EKS cluster with managed nodes using BluePrints and Modules.
