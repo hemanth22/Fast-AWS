@@ -1,4 +1,4 @@
-## HANDS-ON-10: Implementing MLOps Pipeline using GitHub, CodePipeline, CodeBuild, CodeDeploy, Sagemaker Endpoint
+## HANDS-ON-010: Implementing MLOps Pipeline using GitHub, CodePipeline, CodeBuild, CodeDeploy, Sagemaker Endpoint
 
 This sample shows:
 - how to create MLOps Pipeline 
