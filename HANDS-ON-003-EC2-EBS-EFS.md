@@ -1,4 +1,4 @@
-## HANDS-ON-03: EBS and EFS Configuration with EC2s
+## HANDS-ON-003: EBS and EFS Configuration with EC2s
 
 This sample shows:
 - how to provision EBS, mount on Ubuntu and Windows Instances.
@@ -15,7 +15,7 @@ There are 3 main parts:
 
 ![image](https://user-images.githubusercontent.com/10358317/230903321-5bca3385-9564-44f1-bde8-fe1c873c870a.png)
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/tree/main/samples/ec2-ebs-efs
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-003-ec2-ebs-efs
 
 # Table of Contents
 - [Key-Pair](#keypair)
@@ -26,13 +26,6 @@ There are 3 main parts:
 - [EBS Final Setup and Test on Ubuntu](#ebsfinalubuntu)
 - [EFS Final Setup and Test on Ubuntu](#efsfinalubuntu)
 - [EBS Final Setup and Test on Windows](#ebsfinalwindows)
-
-
-
-### Prerequisite
-
-- You should have a look following lab: 
-  - [LAB-00: Terraform Install, AWS Configuration with Terraform](https://github.com/omerbsezer/Fast-Terraform/blob/main/LAB00-Terraform-Install-AWS-Configuration.md)
 
 ## Steps
 
@@ -203,7 +196,7 @@ output "instance_win2019_public_ip" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/ec2-ebs-efs/main.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-003-ec2-ebs-efs/main.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/228973324-4bc1c6ad-1099-4f56-8e6f-c002f719d9d4.png)
 
@@ -243,7 +236,7 @@ resource "aws_volume_attachment" "win2019_ebs_windows" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/ec2-ebs-efs/ebs.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-003-ec2-ebs-efs/ebs.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/230891729-cda1f5a7-0d7e-4763-ad26-709b23596ad5.png)
 
@@ -329,7 +322,7 @@ resource "null_resource" "configure_nfs" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/ec2-ebs-efs/efs.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-003-ec2-ebs-efs/efs.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/230891861-918ccb30-f78e-45be-9780-5d9046a829de.png)
 
