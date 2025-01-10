@@ -14,7 +14,7 @@ This sample shows:
 - If you run it the first time, please open to request to AWS for the instance: "ml.m5.xlarge" ("ResourceLimitExceeded").
   - https://repost.aws/knowledge-center/sagemaker-resource-limit-exceeded-error  
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/tree/main/samples/mlops-sagemaker-github-codepipeline-codebuild-codedeploy 
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-010-mlops-sagemaker-github-codepipeline-codebuild-codedeploy
 
 
 **Architecture:**
@@ -41,17 +41,11 @@ This sample shows:
       - Action: Deploy (**Cloudformation, DeployResourcesProd: modeldeploy_pipeline project => endpoint-config-template.yml**)
 - Notebooks (for testing) (region: us-east-1)
   - End2end.ipynb
-    - https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/mlops-sagemaker-github-codepipeline-codebuild-codedeploy/Notebooks/SageMaker_Customer_Churn_XGB_end2end.ipynb
+    - https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-010-mlops-sagemaker-github-codepipeline-codebuild-codedeploy/Notebooks/SageMaker_Customer_Churn_XGB_end2end.ipynb
   - Pipeline.ipynb (Sagemaker Data Pipeline)
-    - https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/mlops-sagemaker-github-codepipeline-codebuild-codedeploy/Notebooks/SageMaker_Customer_Churn_XGB_Pipeline.ipynb  
+    - https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-010-mlops-sagemaker-github-codepipeline-codebuild-codedeploy/Notebooks/SageMaker_Customer_Churn_XGB_Pipeline.ipynb  
     
    ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/09c0ac8a-0fe5-4877-8440-b29a22bad5cf)
-
-
-### Prerequisite
-
-- You should have a look following lab: 
-  - [LAB-00: Terraform Install, AWS Configuration with Terraform](https://github.com/omerbsezer/Fast-Terraform/blob/main/LAB00-Terraform-Install-AWS-Configuration.md)
 
 
 ## Steps
