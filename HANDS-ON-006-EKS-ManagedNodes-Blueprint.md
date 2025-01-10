@@ -9,7 +9,7 @@ This sample shows:
 - EKS Blueprint is used from: 
   - https://github.com/aws-ia/terraform-aws-eks-blueprints
 - Gameserver example is updated and run: 
-  - https://github.com/aws-ia/terraform-aws-eks-blueprints/tree/main/examples/agones-game-controller 
+  - https://github.com/aws-ia/terraform-aws-eks-blueprints/tree/main/patterns/agones-game-controller
 
 There are 1 main part:
 - **main.tf**: includes:
@@ -17,7 +17,7 @@ There are 1 main part:
   - EKS addon module: metrics_server, cluster_autoscaler
   - VPC module: 1 VPC, 6 Subnets (3 Public, 3 Private), 3 Route Tables, 1 IGW, 1 NAT, 1 NACL 
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/tree/main/samples/eks-managed-node-blueprint
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-006-eks-managed-node-blueprint
 
 **EKS Pricing:**
 - For the Cluster (Managed Control Plane):
@@ -42,11 +42,6 @@ There are 1 main part:
   - Please have look for fargate pricing: https://aws.amazon.com/fargate/pricing/ 
 - https://cloudonaut.io/versus/docker-containers/eks-fargate-vs-eks-managed-node-group/
 - https://cloudonaut.io/versus/docker-containers/ecs-fargate-vs-eks-managed-node-group/ 
-
-### Prerequisite
-
-- You should have a look following lab: 
-  - [LAB-00: Terraform Install, AWS Configuration with Terraform](https://github.com/omerbsezer/Fast-Terraform/blob/main/LAB00-Terraform-Install-AWS-Configuration.md)
 
 ## Steps
 
@@ -201,7 +196,7 @@ output "configure_kubectl" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/eks-managed-node-blueprint/main.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-006-eks-managed-node-blueprint/main.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/233113882-6b81b0ca-d35a-42da-b1c0-4b5236375ddf.png)
 
