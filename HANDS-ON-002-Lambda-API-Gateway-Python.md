@@ -16,11 +16,6 @@ There are 3 main parts:
 
 **Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-002-lambda-apigateway-python
 
-### Prerequisite
-
-- You should have a look following lab: 
-  - [LAB-00: Terraform Install, AWS Configuration with Terraform](https://github.com/omerbsezer/Fast-Terraform/blob/main/LAB00-Terraform-Install-AWS-Configuration.md)
-
 ## Steps
 
 - Create lambda.tf:
@@ -192,7 +187,7 @@ output "base_url" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/lambda-role-policy-apigateway-python/api-gateway.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-002-lambda-apigateway-python/api-gateway.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/230722822-b8352e6e-6ebf-4dec-ab36-0f5d7bcfe914.png)
 
@@ -214,7 +209,7 @@ def lambda_handler(event, context):
    return response
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/lambda-role-policy-apigateway-python/code/main.py
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-002-lambda-apigateway-python/code/main.py
 
 ![image](https://user-images.githubusercontent.com/10358317/230722767-2f89b91b-eab3-4348-b405-7ca773bee803.png)
 
