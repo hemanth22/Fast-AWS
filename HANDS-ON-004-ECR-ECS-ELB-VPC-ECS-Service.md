@@ -51,7 +51,7 @@ There are 5 main parts:
 
 ### Flask App Docker Image Creation <a name="app"></a>
 - We have Flask-App to run on AWS ECS. To build image, please have a look:
-  - https://github.com/omerbsezer/Fast-Terraform/tree/main/samples/ecr-ecs-elb-vpc-ecsservice-container/flask-app
+  - https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-004-ecr-ecs-elb-vpc-ecsservice-container/flask-app
 
 ### Creating ECR (Elastic Container Repository), Pushing Image into ECR <a name="ecr"></a>
 
