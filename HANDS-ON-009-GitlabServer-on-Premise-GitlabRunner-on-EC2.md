@@ -53,12 +53,12 @@ docker exec -it git-server_web_1 bash
 > Password successfully updated for user with username root.
 > exit
 ```
-
-![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/0c122fd7-645a-40c3-bfb6-799d9c2fcd82)
+  
+  ![image](https://github.com/user-attachments/assets/129f4796-08ae-4502-8932-b582fa7f6856)
 
 - If you run docker in the WSL, call browser in the WSL: "sensible-browser http://gitlab.example.com:150/"
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/f3e6d11a-6b6e-4ab6-a8c6-01c718090243)
+  ![image](https://github.com/user-attachments/assets/b6a50a44-b886-4e7e-9a69-ca1a714e61c9)
 
 - This runs on 127.0.0.1:150 when you run "netstat -an" on windows, but we want to run it on the host machine IP "192.168.178.28:150"
 - Use PORT Proxy from 127.0.0.1:150 to 192.168.178.28:150
@@ -70,11 +70,11 @@ netsh interface portproxy add v4tov4 listenport=150 connectaddress=127.0.0.1 con
 
 - Now, when it runs on both hostIP:150 and 127.0.0.1:150. This requires to NAT Forwarding
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/f1419f87-f3ef-4666-b4d8-9bb6fd3e0295)
+  ![image](https://github.com/user-attachments/assets/fb2fd5bc-ebb5-4958-b3d3-4f1b00596a36)
 
 - On Network Config, make connection (ethernet or wireless) to static IP 192.168.178.28.
-  
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/437d7e0b-5a76-4a94-999b-a9c6dfc07f67)
+
+  ![image](https://github.com/user-attachments/assets/a289428b-f4b8-49f5-9889-75a1cee6da6b)
 
 - On the modem switch, enable NAT Forwarding, this enables that external traffic redirects to the host machine: 192.168.178.1 => Internet.Permit Access => PC, TCP Port 150 through 150, external 150.
  
@@ -82,12 +82,12 @@ netsh interface portproxy add v4tov4 listenport=150 connectaddress=127.0.0.1 con
 
 - On 'C:\Windows\System32\drivers\etc\host' file, add '127.0.0.1 gitlab.example.com', test with 'gitlab.example.com' on browser on-premise:
   
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/2349083d-c9b2-4ad2-980a-24839d169e76)
+  ![image](https://github.com/user-attachments/assets/67f5531c-28ef-408a-829a-62c1aee15338)
 
 - Close/pause the firewall to reach the service from outside.
 - Learn the external IP with googling 'what is my IP', and test 'externalIP:150' on browser:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/1a692453-4b6e-4bc6-9898-bfe31f28ee1d)
+  ![image](https://github.com/user-attachments/assets/30ac91dd-3ebb-4592-8015-9be2fa49c94e)
 
 - Create EC2 on AWS with:
 
@@ -110,25 +110,26 @@ ssh -i .\testkey.pem ubuntu@UbuntuPublicIP
 
 - Register gitlab-runner using 'sudo gitlab-runner register', url: http://gitlab.example.com:150/, token from Gitlab Server > Admin > CI > Runners > Register new Runner (for shared-runner), add tag: ec2-shared, executable: docker, and alpine.
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/d6187256-775f-4abc-a76b-c81fa1b462fd)
+  ![image](https://github.com/user-attachments/assets/0d346c25-e729-448a-b755-7e694b5330c8)
 
 - Runners was added, to configure to see the local URL:
   - 'nano /etc/gitlab-runner/config.toml', url = "http://gitlab.example.com:150/", add extra =>  'clone_url = "http://88.xx.xx.xx:150"' (externalIP:150), 
   - Restart gitlab-runner on EC2: 'sudo gitlab-runner restart'
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/8d97fbde-6e04-4038-bcbb-d7cafc1fb7c1)
+  ![image](https://github.com/user-attachments/assets/8fa96944-ada0-43df-894a-b3caf43835fb)
 
 - List runners on EC2 'sudo gitlab-runner list': 
   
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/b889a30a-1f0a-4668-b1a4-44633a448e46)
+  ![image](https://github.com/user-attachments/assets/68245995-34e9-49f7-8282-986874b21002)
   
 - Builds => gitlab runners run on EC2, responds to results to Gitlab Server on-premise: 
   
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/67e7e90f-caa1-462d-9125-02dd324519a6)
+  ![image](https://github.com/user-attachments/assets/86ac71f3-a14e-44f6-bccb-a72c112001d9)
   
 - Running jobs on EC2:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/8964536b-5df5-427e-bb45-9091fc07ed29)
+  ![image](https://github.com/user-attachments/assets/6128c335-cbb8-4098-90c4-20456ad9bf41)
+
 
 ## References:
 - https://nagachiang.github.io/gitlab-ci-gitlab-runner-cant-fetch-changes-from-repository/#
