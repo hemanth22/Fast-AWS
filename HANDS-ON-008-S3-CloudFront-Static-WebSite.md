@@ -1,4 +1,4 @@
-## HANDS-ON-08: Provisioning S3, CloudFront to serve Static Web Site
+## HANDS-ON-008: Provisioning S3, CloudFront to serve Static Web Site
 
 This sample shows:
 - how to create S3 Bucket, 
@@ -7,12 +7,7 @@ This sample shows:
 - how to create CloudFront distribution to refer S3 Static Web Site,
 - how to configure CloudFront (default_cache_behavior, ordered_cache_behavior, ttl, price_class, restrictions, viewer_certificate).
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/s3-cloudfront-static-website/
-
-### Prerequisite
-
-- You should have a look following lab: 
-  - [LAB-00: Terraform Install, AWS Configuration with Terraform](https://github.com/omerbsezer/Fast-Terraform/blob/main/LAB00-Terraform-Install-AWS-Configuration.md)
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-008-s3-cloudfront-static-website
 
 ## Steps
 
@@ -164,7 +159,7 @@ resource "aws_s3_bucket_public_access_block" "mybucket" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/s3-cloudfront-static-website/s3.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-008-s3-cloudfront-static-website/s3.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/234043000-4dbbf5bd-8c87-4c3b-872e-6b9958217cc3.png)
 
@@ -293,7 +288,7 @@ output "cloudfront_domain_name" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/s3-cloudfront-static-website/cloudfront.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-008-s3-cloudfront-static-website/cloudfront.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/234043230-49318380-a869-430f-a209-60c5cf367cdd.png)
 
