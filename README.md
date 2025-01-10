@@ -1084,7 +1084,7 @@ There are more than 200 AWS services. Popular services are listed in short.
   - details on AWS Lambda, API-Gateway, IAM.
 
 - **Go to the Hands-On:**
-  - [HANDS-ON-02: Provisioning Lambda, API Gateway and Reaching HTML Page in Python Code From Browser](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE02-Lambda-API-Gateway-Python.md)
+  - [HANDS-ON-02: Provisioning Lambda, API Gateway and Reaching HTML Page in Python Code From Browser](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-002-Lambda-API-Gateway-Python.md)
   
 
 ### HANDS-ON-03: EBS and EFS Configuration with EC2s <a name="ebs_efs_ec2"></a>
@@ -1094,7 +1094,7 @@ There are more than 200 AWS services. Popular services are listed in short.
   - how to provision VPC, subnet, IGW, route table, security group.
 
 - **Go to the Hands-On:**
-  - [HANDS-ON-03: EBS and EFS Configuration with EC2s](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE03-EC2-EBS-EFS.md)
+  - [HANDS-ON-03: EBS and EFS Configuration with EC2s](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-003-EC2-EBS-EFS.md)
   
 ### HANDS-ON-04: Provisioning ECR, Pushing Image to ECR, Provisioning ECS, VPC, ELB, ECS Tasks, Service on Fargate Cluster <a name="ecr_ecs_elb_vpc_ecs_service_fargate"></a>  
 - This hands-on shows:
@@ -1105,7 +1105,7 @@ There are more than 200 AWS services. Popular services are listed in short.
   - how to provision ECS Fargate Cluster, Task and Service (running container as Service).
 
 - **Go to the Hands-On:**
-  - [HANDS-ON-04: Provisioning ECR, Pushing Image to ECR, Provisioning ECS, VPC, ELB, ECS Tasks, Service on Fargate Cluster](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE04-ECR-ECS-ELB-VPC-ECS-Service.md)
+  - [HANDS-ON-04: Provisioning ECR, Pushing Image to ECR, Provisioning ECS, VPC, ELB, ECS Tasks, Service on Fargate Cluster](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-004-ECR-ECS-ELB-VPC-ECS-Service.md)
   
  ### HANDS-ON-05: Provisioning ECR, Lambda and API Gateway to run Flask App Container on Lambda <a name="ecr_lambda_apigateway_container"></a>  
 - This hands-on shows:
@@ -1115,7 +1115,7 @@ There are more than 200 AWS services. Popular services are listed in short.
   - how to create API Gateway resource and method definition, Lambda - API Gateway connection, deploying API Gateway.
 
 - **Go to the Hands-On:**
-  - [HANDS-ON-05: Provisioning ECR, Lambda and API Gateway to run Flask App Container on Lambda](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE05-Lambda-Container-ApiGateway-FlaskApp.md)  
+  - [HANDS-ON-05: Provisioning ECR, Lambda and API Gateway to run Flask App Container on Lambda](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-005-Lambda-Container-ApiGateway-FlaskApp.md)  
 
 ### HANDS-ON-06: Provisioning EKS with Managed Nodes using Blueprint and Modules <a name="eks_managednodes_blueprint"></a>  
 - This hands-on shows:
@@ -1125,7 +1125,7 @@ There are more than 200 AWS services. Popular services are listed in short.
     - https://github.com/aws-ia/terraform-aws-eks-blueprints
 
 - **Go to the Hands-On:** 
-  - [HANDS-ON-06: Provisioning EKS with Managed Nodes using Blueprint and Modules](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE06-EKS-ManagedNodes-Blueprint.md)
+  - [HANDS-ON-06: Provisioning EKS with Managed Nodes using Blueprint and Modules](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-006-EKS-ManagedNodes-Blueprint.md)
 
  ### HANDS-ON-07: Provisioning CodeCommit, CodePipeline and Triggering CodeBuild and CodeDeploy Container in Lambda <a name="ci_cd"></a>  
 - This hands-on shows:
@@ -1136,7 +1136,7 @@ There are more than 200 AWS services. Popular services are listed in short.
   - how to create Lambda Function (by CodeBuild automatically) and run/deploy container on Lambda ('buildspec_deploy.yaml').
 
 - **Go to the Hands-On:**    
-  - [HANDS-ON-07: Provisioning CodeCommit, CodePipeline and Triggering CodeBuild and CodeDeploy Container in Lambda](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE07-CodeCommit-Pipeline-Build-Deploy-Lambda.md)
+  - [HANDS-ON-07: Provisioning CodeCommit, CodePipeline and Triggering CodeBuild and CodeDeploy Container in Lambda](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-007-CodeCommit-Pipeline-Build-Deploy-Lambda.md)
 
  ### SAMPLE-08: Provisioning S3 and CloudFront to serve Static Web Site <a name="s3_cloudfront"></a>
 - This hands-on shows:
@@ -1147,7 +1147,7 @@ There are more than 200 AWS services. Popular services are listed in short.
   - how to configure CloudFront (default_cache_behavior, ordered_cache_behavior, ttl, price_class, restrictions, viewer_certificate).
 
 - **Go to the Hands-On:**    
-  - [HANDS-ON-08: Provisioning S3, CloudFront to serve Static Web Site](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE08-S3-CloudFront-Static-WebSite.md)
+  - [HANDS-ON-08: Provisioning S3, CloudFront to serve Static Web Site](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-008-S3-CloudFront-Static-WebSite.md)
 
  ### HANDS-ON-09: Provisioned Gitlab Runner on EC2, connection to Gitlab Server using Docker on-premise <a name="gitlabrunner"></a>
 - This hands-on shows:
@@ -1159,7 +1159,7 @@ There are more than 200 AWS services. Popular services are listed in short.
   - how to run job on EC2 and returns artifacts to Gitlab Server on-premise (in Home).
 
 - **Go to the Hands-On:**
-  - [HANDS-ON-09: Provisioned Gitlab Runner on EC2, connection to Gitlab Server using Docker on-premise](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE09-GitlabServer-on-Premise-GitlabRunner-on-EC2.md)
+  - [HANDS-ON-09: Provisioned Gitlab Runner on EC2, connection to Gitlab Server using Docker on-premise](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-009-GitlabServer-on-Premise-GitlabRunner-on-EC2.md)
 
  ### HANDS-ON-10: Implementing MLOps Pipeline using GitHub, CodePipeline, CodeBuild, CodeDeploy, Sagemaker Endpoint <a name="sagemaker"></a>
 - This hands-on shows:
@@ -1170,4 +1170,4 @@ There are more than 200 AWS services. Popular services are listed in short.
   - how to create and test models using Notebooks
 
 - **Go to the Hands-On:**
-  - [HANDS-ON-10: Implementing MLOps Pipeline using GitHub, CodePipeline, CodeBuild, CodeDeploy, Sagemaker Endpoint](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE10-MLOps-SageMaker-GitHub-Codepipeline-CodeBuild-CodeDeploy.md)
+  - [HANDS-ON-10: Implementing MLOps Pipeline using GitHub, CodePipeline, CodeBuild, CodeDeploy, Sagemaker Endpoint](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-010-MLOps-SageMaker-GitHub-Codepipeline-CodeBuild-CodeDeploy.md)
