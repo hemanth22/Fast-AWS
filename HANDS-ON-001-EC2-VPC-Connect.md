@@ -1,4 +1,4 @@
-## HANDS-ON-01: Provisioning EC2s on VPC, Creating Key-Pair, Connecting EC2
+## HANDS-ON-001: Provisioning EC2s on VPC, Creating Key-Pair, Connecting EC2
 
 This sample shows:
 - how to create Key-pairs (public and private keys) on AWS.
@@ -6,14 +6,9 @@ This sample shows:
 - how to create Virtual Private Cloud (VPC), VPC Components (Public Subnet, Internet Gateway, Route Table) and link to each others.
 - how to create Security Groups (for SSH and Remote Desktop).
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/tree/main/samples/ec2-vpc-ubuntu-win-ssh-rdp
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-001-ec2-vpc-connect-ec2
 
   ![1 VPC-IG-EC2](https://github.com/user-attachments/assets/29c5a207-bc35-43f1-8c4e-75d77acf77c1)
-
-### Prerequisite
-
-- You should have a look following lab: 
-  - [LAB-00: Terraform Install, AWS Configuration with Terraform](https://github.com/omerbsezer/Fast-Terraform/blob/main/LAB00-Terraform-Install-AWS-Configuration.md)
 
 ## Steps
 
@@ -183,7 +178,7 @@ output "instance_win2019_public_ip" {
 }
 ``` 
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/ec2-vpc-ubuntu-win-ssh-rdp/main.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-001-ec2-vpc-connect-ec2/main.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/228973324-4bc1c6ad-1099-4f56-8e6f-c002f719d9d4.png)
 
