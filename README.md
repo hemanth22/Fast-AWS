@@ -8,16 +8,16 @@ This repo covers AWS Hands-on Labs for different AWS services.
   
 # Quick Look (How-To): AWS Hands-on Labs
 These hands-on labs focus on how to create and use AWS components:
-- [HANDS-ON-01: Provisioning EC2s on VPC, Creating Key-Pair, Connecting EC2](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE01-EC2-VPC-Ubuntu-Win-SSH-RDP.md)
-- [HANDS-ON-02: Provisioning Lambda, API Gateway and Reaching HTML Page in Python Code From Browser](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE02-Lambda-API-Gateway-Python.md)
-- [HANDS-ON-03: EBS and EFS Configuration with EC2s](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE03-EC2-EBS-EFS.md)
-- [HANDS-ON-04: Provisioning ECR, Pushing Image to ECR, Provisioning ECS, VPC, ELB, ECS Tasks, Service on Fargate Cluster](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE04-ECR-ECS-ELB-VPC-ECS-Service.md)
-- [HANDS-ON-05: Provisioning ECR, Lambda and API Gateway to run Flask App Container on Lambda](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE05-Lambda-Container-ApiGateway-FlaskApp.md)
-- [HANDS-ON-06: Provisioning EKS with Managed Nodes using Blueprint and Modules](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE06-EKS-ManagedNodes-Blueprint.md)
-- [HANDS-ON-07: Provisioning CodeCommit, CodePipeline and Triggering CodeBuild and CodeDeploy Container in Lambda](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE07-CodeCommit-Pipeline-Build-Deploy-Lambda.md)
-- [HANDS-ON-08: Provisioning S3, CloudFront to serve Static Web Site](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE08-S3-CloudFront-Static-WebSite.md)
-- [HANDS-ON-09: Provisioned Gitlab Runner on EC2, connection to Gitlab Server using Docker on-premise](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE09-GitlabServer-on-Premise-GitlabRunner-on-EC2.md)
-- [HANDS-ON-10: Implementing MLOps Pipeline using GitHub, CodePipeline, CodeBuild, CodeDeploy, Sagemaker Endpoint](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE10-MLOps-SageMaker-GitHub-Codepipeline-CodeBuild-CodeDeploy.md)
+- [HANDS-ON-01: Provisioning EC2s on VPC, Creating Key-Pair, Connecting EC2](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-001-EC2-VPC-Connect.md)
+- [HANDS-ON-02: Provisioning Lambda, API Gateway and Reaching HTML Page in Python Code From Browser](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-002-Lambda-API-Gateway-Python.md)
+- [HANDS-ON-03: EBS and EFS Configuration with EC2s](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-003-EC2-EBS-EFS.md)
+- [HANDS-ON-04: Provisioning ECR, Pushing Image to ECR, Provisioning ECS, VPC, ELB, ECS Tasks, Service on Fargate Cluster](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-004-ECR-ECS-ELB-VPC-ECS-Service.md)
+- [HANDS-ON-05: Provisioning ECR, Lambda and API Gateway to run Flask App Container on Lambda](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-005-Lambda-Container-ApiGateway-FlaskApp.md)
+- [HANDS-ON-06: Provisioning EKS with Managed Nodes using Blueprint and Modules](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-006-EKS-ManagedNodes-Blueprint.md)
+- [HANDS-ON-07: Provisioning CodeCommit, CodePipeline and Triggering CodeBuild and CodeDeploy Container in Lambda](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-007-CodeCommit-Pipeline-Build-Deploy-Lambda.md)
+- [HANDS-ON-08: Provisioning S3, CloudFront to serve Static Web Site](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-008-S3-CloudFront-Static-WebSite.md)
+- [HANDS-ON-09: Provisioned Gitlab Runner on EC2, connection to Gitlab Server using Docker on-premise](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-009-GitlabServer-on-Premise-GitlabRunner-on-EC2.md)
+- [HANDS-ON-10: Implementing MLOps Pipeline using GitHub, CodePipeline, CodeBuild, CodeDeploy, Sagemaker Endpoint](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-010-MLOps-SageMaker-GitHub-Codepipeline-CodeBuild-CodeDeploy.md)
 
 # Table of Contents
 - [Motivation](#motivation)
@@ -35,7 +35,7 @@ These hands-on labs focus on how to create and use AWS components:
   - [11. Migration Services](#migration)
   - [12. Internet of Things Services](#internetofthings)
   - [13. Artificial Intelligence Services](#artificialintelligence)
-- [AWS Hands-on Labs](#samples)
+- [AWS Hands-on Labs](#handsonlabs)
   - [HANDS-ON-01: Provisioning EC2s on VPC, Creating Key-Pair, Connecting EC2](#ec2_vpc_key_pair)
   - [HANDS-ON-02: Provisioning Lambda, API Gateway and Reaching HTML Page in Python Code From Browser](#lambda_apigateway_python)
   - [HANDS-ON-03: EBS and EFS Configuration with EC2s](#ebs_efs_ec2)
@@ -1064,3 +1064,110 @@ There are more than 200 AWS services. Popular services are listed in short.
 
   ![image](https://github.com/user-attachments/assets/d4c9646d-85fa-4593-90d4-5c932631ae6a)
 
+## AWS Hands-on Labs <a name="handsonlabs"></a>
+
+### HANDS-ON-01: Provisioning EC2s on VPC, Creating Key-Pair, Connecting EC2 <a name="ec2_vpc_key_pair"></a>
+- This sample shows:
+  - how to create Key-pairs (public and private keys) on AWS,
+  - how to create EC2s (Ubuntu 20.04, Windows 2019 Server),
+  - how to create Virtual Private Cloud (VPC), VPC Components (Public Subnet, Internet Gateway, Route Table) and link to each others,
+  - how to create Security Groups (for SSH and Remote Desktop).
+
+- **Go to the Hands-On:**
+  - [HANDS-ON-01: Provisioning EC2s on VPC, Creating Key-Pair, Connecting EC2](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-001-EC2-VPC-Connect.md)
+  
+### HANDS-ON-02: Provisioning Lambda, API Gateway and Reaching HTML Page in Python Code From Browser <a name="lambda_apigateway_python"></a>
+- This hands-on shows:
+  - how to create Lambda function with Python code,
+  - how to create lambda role, policy, policy-role attachment, lambda api gateway permission, zipping code,
+  - how to create api-gateway resource and method definition, lambda - api gateway connection, deploying api gateway, api-gateway deployment URL as output
+  - details on AWS Lambda, API-Gateway, IAM.
+
+- **Go to the Hands-On:**
+  - [HANDS-ON-02: Provisioning Lambda, API Gateway and Reaching HTML Page in Python Code From Browser](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE02-Lambda-API-Gateway-Python.md)
+  
+
+### HANDS-ON-03: EBS and EFS Configuration with EC2s <a name="ebs_efs_ec2"></a>
+- This hands-on shows:
+  - how to create EBS, mount on Ubuntu and Windows Instances,
+  - how to create EFS, mount on Ubuntu Instance,
+  - how to provision VPC, subnet, IGW, route table, security group.
+
+- **Go to the Hands-On:**
+  - [HANDS-ON-03: EBS and EFS Configuration with EC2s](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE03-EC2-EBS-EFS.md)
+  
+### HANDS-ON-04: Provisioning ECR, Pushing Image to ECR, Provisioning ECS, VPC, ELB, ECS Tasks, Service on Fargate Cluster <a name="ecr_ecs_elb_vpc_ecs_service_fargate"></a>  
+- This hands-on shows:
+  - how to create Flask-app Docker image,
+  - how to provision ECR and push to image to this ECR,
+  - how to provision VPC, Internet Gateway, Route Table, 3 Public Subnets,
+  - how to provision ALB (Application Load Balancer), Listener, Target Group,
+  - how to provision ECS Fargate Cluster, Task and Service (running container as Service).
+
+- **Go to the Hands-On:**
+  - [HANDS-ON-04: Provisioning ECR, Pushing Image to ECR, Provisioning ECS, VPC, ELB, ECS Tasks, Service on Fargate Cluster](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE04-ECR-ECS-ELB-VPC-ECS-Service.md)
+  
+ ### HANDS-ON-05: Provisioning ECR, Lambda and API Gateway to run Flask App Container on Lambda <a name="ecr_lambda_apigateway_container"></a>  
+- This hands-on shows:
+  - how to create Flask-app-serverless image to run on Lambda,
+  - how to create ECR and to push image to ECR,
+  - how to create Lambda function, Lambda role, policy, policy-role attachment, Lambda API Gateway permission,
+  - how to create API Gateway resource and method definition, Lambda - API Gateway connection, deploying API Gateway.
+
+- **Go to the Hands-On:**
+  - [HANDS-ON-05: Provisioning ECR, Lambda and API Gateway to run Flask App Container on Lambda](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE05-Lambda-Container-ApiGateway-FlaskApp.md)  
+
+### HANDS-ON-06: Provisioning EKS with Managed Nodes using Blueprint and Modules <a name="eks_managednodes_blueprint"></a>  
+- This hands-on shows:
+  - how to create EKS cluster with managed nodes using BluePrints and Modules.
+  - EKS Blueprint is used to provision EKS cluster with managed nodes easily. 
+  - EKS Blueprint is used from: 
+    - https://github.com/aws-ia/terraform-aws-eks-blueprints
+
+- **Go to the Hands-On:** 
+  - [HANDS-ON-06: Provisioning EKS with Managed Nodes using Blueprint and Modules](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE06-EKS-ManagedNodes-Blueprint.md)
+
+ ### HANDS-ON-07: Provisioning CodeCommit, CodePipeline and Triggering CodeBuild and CodeDeploy Container in Lambda <a name="ci_cd"></a>  
+- This hands-on shows:
+  - how to create code repository using CodeCommit,
+  - how to create pipeline with CodePipeline, create S3 bucket to store Artifacts for codepipeline stages' connection (source, build, deploy),
+  - how to create builder with CodeBuild ('buildspec_build.yaml'), build the source code, create a Docker image,
+  - how to create ECR (Elastic Container Repository) and push the build image into the ECR,
+  - how to create Lambda Function (by CodeBuild automatically) and run/deploy container on Lambda ('buildspec_deploy.yaml').
+
+- **Go to the Hands-On:**    
+  - [HANDS-ON-07: Provisioning CodeCommit, CodePipeline and Triggering CodeBuild and CodeDeploy Container in Lambda](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE07-CodeCommit-Pipeline-Build-Deploy-Lambda.md)
+
+ ### SAMPLE-08: Provisioning S3 and CloudFront to serve Static Web Site <a name="s3_cloudfront"></a>
+- This hands-on shows:
+  - how to create S3 Bucket, 
+  - how to to copy the website to S3 Bucket, 
+  - how to configure S3 bucket policy,
+  - how to create CloudFront distribution to refer S3 Static Web Site,
+  - how to configure CloudFront (default_cache_behavior, ordered_cache_behavior, ttl, price_class, restrictions, viewer_certificate).
+
+- **Go to the Hands-On:**    
+  - [HANDS-ON-08: Provisioning S3, CloudFront to serve Static Web Site](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE08-S3-CloudFront-Static-WebSite.md)
+
+ ### HANDS-ON-09: Provisioned Gitlab Runner on EC2, connection to Gitlab Server using Docker on-premise <a name="gitlabrunner"></a>
+- This hands-on shows:
+  - how to run Gitlab Server using Docker on WSL2 on-premise,
+  - how to redirect external traffic to docker container port (Gitlab server),
+  - how to configure on-premise PC network configuration,
+  - how to run EC2 and install docker, gitlab-runner on EC2,
+  - how to register Gitlab runner on EC2 to Gitlab Server on-premise (in Home),
+  - how to run job on EC2 and returns artifacts to Gitlab Server on-premise (in Home).
+
+- **Go to the Hands-On:**
+  - [HANDS-ON-09: Provisioned Gitlab Runner on EC2, connection to Gitlab Server using Docker on-premise](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE09-GitlabServer-on-Premise-GitlabRunner-on-EC2.md)
+
+ ### HANDS-ON-10: Implementing MLOps Pipeline using GitHub, CodePipeline, CodeBuild, CodeDeploy, Sagemaker Endpoint <a name="sagemaker"></a>
+- This hands-on shows:
+  - how to create MLOps Pipeline 
+  - how to use GitHub Hooks (Getting Source Code from Github to CodePipeline)
+  - how to create Build CodePipeline (Source, Build), CodeBuild (modelbuild_buildspec.yml), Deploy CodePipeline (Source, Build, DeployStaging, DeployProd), CodeBuild (modeldeploy_buildspec.yml)
+  - how to save the model and artifacts on S3
+  - how to create and test models using Notebooks
+
+- **Go to the Hands-On:**
+  - [HANDS-ON-10: Implementing MLOps Pipeline using GitHub, CodePipeline, CodeBuild, CodeDeploy, Sagemaker Endpoint](https://github.com/omerbsezer/Fast-Terraform/blob/main/SAMPLE10-MLOps-SageMaker-GitHub-Codepipeline-CodeBuild-CodeDeploy.md)
