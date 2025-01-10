@@ -1,4 +1,4 @@
-## HANDS-ON-05: Provisioning ECR, Lambda and API Gateway to run Flask App Container on Lambda
+## HANDS-ON-005: Provisioning ECR, Lambda and API Gateway to run Flask App Container on Lambda
 
 This sample shows:
 - how to create Flask-app-serverless image to run on Lambda,
@@ -13,7 +13,7 @@ There are 3 main parts:
 
 ![image](https://user-images.githubusercontent.com/10358317/233119705-ba6544e0-dbfc-49f5-9a65-c20b82f7bae1.png)
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/tree/main/samples/lambda-container-apigateway-flaskapp
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-005-lambda-container-apigateway-flaskapp
 
 # Table of Contents
 - [Flask App Docker Image Creation](#app)
@@ -22,16 +22,11 @@ There are 3 main parts:
 - [Creating API Gateway](#apigateway)
 - [Demo: Terraform Run](#run)
 
-### Prerequisite
-
-- You should have a look following lab: 
-  - [LAB-00: Terraform Install, AWS Configuration with Terraform](https://github.com/omerbsezer/Fast-Terraform/blob/main/LAB00-Terraform-Install-AWS-Configuration.md)
-
 ## Steps
 
 ### Flask App Docker Image Creation <a name="app"></a>
 - We have Flask-App to run on AWS ECS. To build image, please have a look:
-  - https://github.com/omerbsezer/Fast-Terraform/tree/main/samples/lambda-container-apigateway-flaskapp/flask-app-serverless
+  - https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-005-lambda-container-apigateway-flaskapp/flask-app-serverless
 
 ### Creating ECR (Elastic Container Repository), Pushing Image into ECR <a name="ecr"></a>
 
@@ -54,7 +49,7 @@ resource "aws_ecr_repository" "flask_app_serverless" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/lambda-container-apigateway-flaskapp/ecr/0_ecr.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-005-lambda-container-apigateway-flaskapp/ecr/0_ecr.tf
 
 ```
 cd /ecr
