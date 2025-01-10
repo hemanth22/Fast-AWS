@@ -44,8 +44,9 @@ This sample shows:
     - https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-010-mlops-sagemaker-github-codepipeline-codebuild-codedeploy/Notebooks/SageMaker_Customer_Churn_XGB_end2end.ipynb
   - Pipeline.ipynb (Sagemaker Data Pipeline)
     - https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-010-mlops-sagemaker-github-codepipeline-codebuild-codedeploy/Notebooks/SageMaker_Customer_Churn_XGB_Pipeline.ipynb  
-    
-   ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/09c0ac8a-0fe5-4877-8440-b29a22bad5cf)
+
+   ![image](https://github.com/user-attachments/assets/fa30614b-b4da-4fcc-b901-4b83bbee9440)
+
 
 
 ## Steps
@@ -62,57 +63,57 @@ terraform apply
 
 - After run:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/7e2060d0-af1c-4b5e-af43-a100f163453b)
+  ![image](https://github.com/user-attachments/assets/7f03d6ab-f176-4388-96e9-d8e4683cd4f2)
 
 - AWS CodePipeline:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/7daef38d-2901-4087-b990-3d8b3676783e)
+  ![image](https://github.com/user-attachments/assets/5f33dcf1-f947-4be2-a501-826b378f44e9)
 
 - ModelBuild:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/1bc7cfe7-a7b5-4155-b4a1-cbb8763a036d)
+  ![image](https://github.com/user-attachments/assets/50fd021e-7ec3-49fd-8937-8f00edb0f848)
 
 - ModelBuild Log:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/72ba0e56-a66f-4427-b35c-5680ae681fc6)
+  ![image](https://github.com/user-attachments/assets/7e75b306-b694-4824-af0e-ecfc91d96d4f)
   
 - AWS S3:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/5b6da22e-7ec8-4a61-821b-3ebc8d272593)
+  ![image](https://github.com/user-attachments/assets/42293444-0406-4dee-9b91-377043a1c4cc)
 
 - ModelBuild was done successfully:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/9e4bad11-883e-463a-928e-d87834439e6f)
+  ![image](https://github.com/user-attachments/assets/7d40ba8c-9c31-423f-953a-f595513346fc)
 
 - CloudWatch to see the training accuracy:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/fa0dbc0e-e3a0-48d2-8c75-309d6dcf9e19)
+  ![image](https://github.com/user-attachments/assets/b018d451-3bd8-40cf-b10f-0d774d8a1278)
 
 - CloudWatch, Log Groups, Train Error:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/095870fb-ff0d-4ce8-bbe1-348779d9be25)
+  ![image](https://github.com/user-attachments/assets/58dd3f7e-10e5-4c59-8653-0968c0d6f16f)
     
 - ModelDeploy:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/a77c0467-3453-41dc-8f8c-c3995973bf82)
+  ![image](https://github.com/user-attachments/assets/d183d1c7-c414-43be-b8e7-d47212b05a3a)
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/6fb4beb5-3d17-459f-8b31-a487b07d39f1)
+  ![image](https://github.com/user-attachments/assets/198605ed-5ef4-4144-b7ef-d77b40af8db2)
 
 - CloudFormation, stack: deploy-staging
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/205f6a3e-1e68-4fc6-895b-d30810c4e50c)
+  ![image](https://github.com/user-attachments/assets/46fac961-e1ea-4cbf-9c69-c07ab315f0f1)
 
 - SageMaker Dashboard, staging endpoint in service:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/4121d5c4-c2db-4a2d-8a83-c5b2183e334b)
+  ![image](https://github.com/user-attachments/assets/f29b06f3-a3ac-4bee-94c0-553faf9781de)
 
 - SageMaker, Model:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/ab3e3090-5f5b-42aa-84ff-53cc17a9a380)
+  ![image](https://github.com/user-attachments/assets/dda681f0-9d11-461e-a2ca-b7208f183b33)
 
 - S3, Model, possible to download:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/09bdaf28-582a-45bc-b4b1-d053da0ec206)
+  ![image](https://github.com/user-attachments/assets/fc7ff989-c062-4628-b22a-42139fa0dd78)
 
 - Try Staging Endpoint with notebook (end2end.ipynb, last cell, enter the endpointname):
 
@@ -140,31 +141,31 @@ print(prediction["Body"].read())
 ```
 - Endpoint returned the result:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/58d56412-b3a2-42bc-978c-4c828d3d1af8)
+  ![image](https://github.com/user-attachments/assets/aeb825c3-c984-4250-ab28-c3a874aaa4b2)
 
 - Approve the Product on the CodePipeline:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/f2ee09ce-3d65-4448-9732-a5cc5a9277db)
+  ![image](https://github.com/user-attachments/assets/ae0fafd9-3927-487d-8b75-a3f83f06eb3d)
 
 - SageMaker Dashboard, 2 Endpoints are in-service:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/cfd146dd-cbe5-4622-946f-0ca457597e26)
+  ![image](https://github.com/user-attachments/assets/08273ef3-87f5-4a5d-9d3f-172688a01494)
 
 - SageMaker, Prod Endpoint:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/444de0ff-f29d-42cd-b471-e17e4b13b904)
+  ![image](https://github.com/user-attachments/assets/1f2d2d4a-aa8d-40f7-8c1d-fec01fb4f797)
 
 - CloudFormation:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/f803e721-2d4c-4545-a0ba-d72a260cf2e0)
+  ![image](https://github.com/user-attachments/assets/359fe99a-ce4b-4da7-b512-11f61c658c58)
 
 - Test Prod Endpoint, returns results:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/e0ea3640-5b16-47ff-9fbf-cd1cdc81b974)
+  ![image](https://github.com/user-attachments/assets/d3206658-30c0-4c67-9e79-4039e08222d7)
 
 - Delete Endpoints manually, if the endpoints are in-service, you have to pay their cost:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/2d30f570-ad34-4972-bee7-05a5058f7c3b)
+  ![image](https://github.com/user-attachments/assets/62ba639f-58e9-41ce-95cd-7de418c7cc39)
 
 - Delete stacks manually in Cloudformation.
 - Download artifacts on S3:
@@ -175,11 +176,11 @@ aws s3 sync s3://artifact-ml-11052023 C:\Users\oesezer\Desktop\aws-artifacts
 
 - Downloaded to the local PC:
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/d1e30b6c-7497-4913-a25b-9e1bbd92556e)
+  ![image](https://github.com/user-attachments/assets/d6e51324-929c-4b84-b403-2ec3b40e12fd)
 
 - Destroy with "terraform destroy":
 
-  ![image](https://github.com/omerbsezer/Fast-Terraform/assets/10358317/cfcf5bc8-a3bc-4ef5-a661-ab6873aa5f65)
+  ![image](https://github.com/user-attachments/assets/624ee2b6-eb2d-421b-967e-80eb15f82e64)
 
 - Check whether all created artifacts are deleted on CodePipeline, S3, CloudFormation, SageMaker, and CloudWatch (LogGroups) or not. If still some of the artifacts are in the AWS, please delete them all. 
 
