@@ -1,4 +1,4 @@
-## HANDS-ON-07: Provisioning CodeCommit, CodePipeline and Triggering CodeBuild and CodeDeploy Container in Lambda
+## HANDS-ON-007: Provisioning CodeCommit, CodePipeline and Triggering CodeBuild and CodeDeploy Container in Lambda
 
 This sample shows:
 - how to create code repository using CodeCommit,
@@ -13,7 +13,7 @@ This sample shows:
 - Some of the fields are updated. 
 - It works with 'hashicorp/aws ~> 4.15.1', 'terraform >= 0.15'
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/tree/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container
 
 ![image](https://user-images.githubusercontent.com/10358317/233652299-66b39788-66ee-4a5e-b8e0-ece418fe98e3.png)
 
@@ -24,11 +24,6 @@ This sample shows:
 - [ECR Module](#ecr)
 - [Lambda Part](#lambda)
 - [Demo: Terraform Run](#run)
-
-### Prerequisite
-
-- You should have a look following lab: 
-  - [LAB-00: Terraform Install, AWS Configuration with Terraform](https://github.com/omerbsezer/Fast-Terraform/blob/main/LAB00-Terraform-Install-AWS-Configuration.md)
 
 ## Steps
 
@@ -97,7 +92,7 @@ module "ecr" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/main.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/main.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/233831575-895408b8-0929-4125-9716-96675f3878f0.png)
 
@@ -115,7 +110,7 @@ output "ecrrepo" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/outputs.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/outputs.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/233831613-28d0dc5d-2299-4862-84e2-ce5a4d220c13.png)
 
@@ -139,7 +134,7 @@ terraform {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/providers.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/providers.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/233831633-549163df-5e40-4f6d-a025-f6c70e726a41.png)
 
@@ -160,7 +155,7 @@ codebuild_type         = "LINUX_CONTAINER"
 codecommit_branch      = "master"
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/terraform.tfvars
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/terraform.tfvars
 
 ![image](https://user-images.githubusercontent.com/10358317/233831672-ad9901a6-3706-4527-a301-f8d0659c1805.png)
 
@@ -213,7 +208,7 @@ variable "terraform_ver" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/variables.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/variables.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/233831701-4d1d1357-ea2e-400d-b53d-da08acf9cd12.png)
 
@@ -230,7 +225,7 @@ resource "aws_codecommit_repository" "codecommit_repo" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/codecommit/main.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/codecommit/main.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/233831728-26ce5e78-3738-4be6-bf1b-8d67bd605817.png)
 
@@ -246,7 +241,7 @@ output "codecommit_configs" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/codecommit/outputs.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/codecommit/outputs.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/233831757-a363b671-be88-4ac3-a5a8-13cd2e870491.png)
 
@@ -265,7 +260,7 @@ variable "env_namespace" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/codecommit/variables.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/codecommit/variables.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/233831783-fdec8f23-5d03-44a4-8b1a-824581a21af0.png)
 
@@ -394,7 +389,7 @@ resource "aws_codepipeline" "codepipeline" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/codepipeline/main.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/codepipeline/main.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/233831984-3bcab992-17a0-413b-bf1e-f38289a959a2.png)
 
@@ -413,7 +408,7 @@ output "deployment_role_arn" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/codepipeline/outputs.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/codepipeline/outputs.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/233832055-65f1b99b-4a16-47b7-9c01-b88d3ec256d8.png)
 
@@ -561,7 +556,7 @@ POLICY
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/codepipeline/roles.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/codepipeline/roles.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/233832109-cd0c7938-3522-4c5e-a6d1-75bc06a11da7.png)
 
@@ -603,7 +598,7 @@ variable "build_args" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/codepipeline/variables.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/codepipeline/variables.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/233832129-c41dee01-6194-496d-8b14-d8a3fc79f158.png)
 
@@ -633,7 +628,7 @@ phases:
       - docker push $IMAGE_URI
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/codepipeline/templates/buildspec_build.yml
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/codepipeline/templates/buildspec_build.yml
 
 ![image](https://user-images.githubusercontent.com/10358317/233832160-42cf2a4a-cba5-4254-a613-f91b37f27a5c.png)
 
@@ -669,7 +664,7 @@ phases:
       - terraform apply -auto-approve
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/codepipeline/templates/buildspec_deploy.yml
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/codepipeline/templates/buildspec_deploy.yml
 
 ![image](https://user-images.githubusercontent.com/10358317/233832212-dc3ca548-6390-4ea3-9c18-b890e81648a6.png)
 
@@ -690,7 +685,7 @@ resource "aws_ecr_repository" "ecr_repo" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/ecr/main.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/ecr/main.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/233832299-e05ba389-3a04-47aa-b91a-478f75b72493.png)
 
@@ -705,7 +700,7 @@ output "ecr_configs" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/ecr/outputs.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/ecr/outputs.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/233832327-78081e78-7477-4f98-909f-f2c03450a8a2.png)
 
@@ -720,7 +715,7 @@ variable "env_namespace" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/ecr/variables.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/modules/ecr/variables.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/233832341-f9cd9510-ce6d-40fb-8562-4b6d56a46b98.png)
 
@@ -788,7 +783,7 @@ resource "aws_lambda_function" "main" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/lambda_bootstrap/main.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/lambda_bootstrap/main.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/233832538-24fe7678-9f67-4799-be4b-610576678c95.png)
 
@@ -799,7 +794,7 @@ output "lambda_arn" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/lambda_bootstrap/outputs.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/lambda_bootstrap/outputs.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/233832555-7b19b218-998d-41f4-93a0-48b69ac1d74f.png)
 
@@ -823,7 +818,7 @@ terraform {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/lambda_bootstrap/providers.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/lambda_bootstrap/providers.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/233832580-46078909-5327-4e8f-bcf1-f387c119bc96.png)
 
@@ -835,7 +830,7 @@ ecr_repo_url = ""
 ecr_repo_arn = ""
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/lambda_bootstrap/terraform.tfvars
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/lambda_bootstrap/terraform.tfvars
 
 - Create variables.tf:
 
@@ -854,11 +849,11 @@ variable "ecr_repo_arn" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/lambda_bootstrap/variables.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/lambda_bootstrap/variables.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/233832595-207be71a-a552-4a1e-9c5b-936c14878533.png)
 
-**Lambda Details, Dockerfile:** https://github.com/omerbsezer/Fast-Terraform/tree/main/samples/codecommit-codepipeline-codebuild-codedeploy-lambda-container/lambda_bootstrap/lambda
+**Lambda Details, Dockerfile:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-007-codecommit-codepipeline-codebuild-codedeploy-lambda-container/lambda_bootstrap/lambda
 
 ![image](https://user-images.githubusercontent.com/10358317/233832640-11e81033-96de-4f54-b7de-1dec2be2e24a.png)
 
