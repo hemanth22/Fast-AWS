@@ -186,7 +186,7 @@ resource "aws_lambda_permission" "apigw" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/lambda-container-apigateway-flaskapp/1_lambda.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-005-lambda-container-apigateway-flaskapp/1_lambda.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/232438855-8cf0d0f9-31fd-43b7-a2c2-0ec29970c59b.png)
 
@@ -258,7 +258,7 @@ output "base_url" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/lambda-container-apigateway-flaskapp/2_api_gateway.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-005-lambda-container-apigateway-flaskapp/2_api_gateway.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/232439028-4659f2ab-27aa-4f7a-843e-355bcd53037b.png)
 
