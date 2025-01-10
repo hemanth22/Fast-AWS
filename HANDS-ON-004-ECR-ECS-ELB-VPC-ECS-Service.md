@@ -1,4 +1,4 @@
-## HANDS-ON-04: Provisioning ECR, Pushing Image to ECR, Provisioning ECS, VPC, ELB, ECS Tasks, Service on Fargate Cluster
+## HANDS-ON-004: Provisioning ECR, Pushing Image to ECR, Provisioning ECS, VPC, ELB, ECS Tasks, Service on Fargate Cluster
 
 This sample shows:
 - how to create Flask-app Docker image,
@@ -16,7 +16,7 @@ There are 5 main parts:
 
    ![ecr-ecs](https://user-images.githubusercontent.com/10358317/232244927-7d819c66-328a-4dd5-b3e1-18b2c7fd92aa.png)
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/tree/main/samples/ecr-ecs-elb-vpc-ecsservice-container
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-004-ecr-ecs-elb-vpc-ecsservice-container
 
 **ECS Pricing:**
 - For the ECS Cluster:
@@ -47,11 +47,6 @@ There are 5 main parts:
 - [Creating ECS Service](#ecsservice)
 - [Demo: Terraform Run](#run)
 
-### Prerequisite
-
-- You should have a look following lab: 
-  - [LAB-00: Terraform Install, AWS Configuration with Terraform](https://github.com/omerbsezer/Fast-Terraform/blob/main/LAB00-Terraform-Install-AWS-Configuration.md)
-
 ## Steps
 
 ### Flask App Docker Image Creation <a name="app"></a>
@@ -79,7 +74,7 @@ resource "aws_ecr_repository" "flask_app" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/ecr-ecs-elb-vpc-ecsservice-container/ecr/0_ecr.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-004-ecr-ecs-elb-vpc-ecsservice-container/ecr/0_ecr.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/232241506-8abd69f6-8802-434e-976f-0420a226fa3f.png)
 
@@ -199,7 +194,7 @@ resource "aws_route_table_association" "route_table_association3" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/ecr-ecs-elb-vpc-ecsservice-container/1_vpc.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-004-ecr-ecs-elb-vpc-ecsservice-container/1_vpc.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/232241321-50a2fe1f-4fb2-4c82-b785-02bf1b326c63.png)
 
@@ -269,7 +264,7 @@ resource "aws_iam_role_policy_attachment" "ecsTaskExecutionRole_policy" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/ecr-ecs-elb-vpc-ecsservice-container/2_ecs.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-004-ecr-ecs-elb-vpc-ecsservice-container/2_ecs.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/232241736-14bbd3db-0c7d-4892-8f76-d762ed971c7e.png)
 
@@ -332,7 +327,7 @@ resource "aws_lb_listener" "listener" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/ecr-ecs-elb-vpc-ecsservice-container/3_elb.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-004-ecr-ecs-elb-vpc-ecsservice-container/3_elb.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/232241821-b859d54f-69ae-40ba-8034-b35fc5309fe1.png)
 
@@ -387,7 +382,7 @@ output "app_url" {
 }
 ```
 
-**Code:** https://github.com/omerbsezer/Fast-Terraform/blob/main/samples/ecr-ecs-elb-vpc-ecsservice-container/4_ecs_service.tf
+**Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-004-ecr-ecs-elb-vpc-ecsservice-container/4_ecs_service.tf
 
 ![image](https://user-images.githubusercontent.com/10358317/232241887-e71759c4-6a09-4cb3-9f18-f0dc36e08eda.png)
 
