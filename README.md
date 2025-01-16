@@ -1198,6 +1198,11 @@ There are more than 200 AWS services. Popular services are listed in short.
   - [HANDS-ON-10: Implementing MLOps Pipeline using GitHub, CodePipeline, CodeBuild, CodeDeploy, Sagemaker Endpoint](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-010-MLOps-SageMaker-GitHub-Codepipeline-CodeBuild-CodeDeploy.md)
 
 ## References  <a name="references"></a>
+- https://docs.aws.amazon.com
+- https://aws.amazon.com/
 - https://github.com/aws-samples
 - https://github.com/aws-ia/terraform-aws-eks-blueprints
 - https://github.com/aws-ia
+- https://github.com/orgs/aws-samples/repositories?q=Terraform&type=all&language=&sort=
+- https://github.com/aws-samples/aws-generative-ai-terraform-samples
+- https://github.com/aws-samples/amazon-eks-machine-learning-with-terraform-and-kubeflow
