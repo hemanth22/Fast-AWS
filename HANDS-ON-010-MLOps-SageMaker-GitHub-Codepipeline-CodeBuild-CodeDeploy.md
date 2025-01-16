@@ -1,5 +1,5 @@
 ## HANDS-ON-010: Implementing MLOps Pipeline using GitHub, CodePipeline, CodeBuild, CodeDeploy, Sagemaker Endpoint
-
+#### Level 400 (Expert)
 This sample shows:
 - how to create MLOps Pipeline 
 - how to use GitHub Hooks (Getting Source Code from Github to CodePipeline)
