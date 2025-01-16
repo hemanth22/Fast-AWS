@@ -1,5 +1,5 @@
 # Fast-AWS
-This repo covers AWS Hands-on Labs, sample architectures for different AWS services with clean demo/printscreens.
+This repo covers **AWS Hands-on Labs, sample architectures** for different AWS services with **clean demo/printscreens**.
 
 ## Why was this repo created?
 - It **shows/maps AWS services in short** with reference AWS developer documentation.  
