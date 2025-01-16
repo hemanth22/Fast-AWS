@@ -1,10 +1,11 @@
 # Fast-AWS
-This repo covers AWS Hands-on Labs for different AWS services.
+This repo covers AWS Hands-on Labs, sample architectures for different AWS services with clean demo/printscreens.
 
 ## Why was this repo created?
-- Shows/maps AWS services in short with reference AWS developer documentation  
-- Shows AWS Hands-on LABs with clean demos. In-time, different AWS Hands-on LABs will be added.
-- Contributes to AWS open source community.
+- It **shows/maps AWS services in short** with reference AWS developer documentation.  
+- It shows **AWS Hands-on LABs with clean demos**. It focuses **only AWS services**.
+- It contributes to **AWS open source community**.
+- Hands-on lab will be **added in time** for different AWS Services and more samples (Bedrock, Sagemaker, ECS, Lambda, Batch, etc.)
   
 # Quick Look (How-To): AWS Hands-on Labs
 These hands-on labs focus on how to create and use AWS components:
@@ -1195,3 +1196,8 @@ There are more than 200 AWS services. Popular services are listed in short.
 
 - **Go to the Hands-On:**
   - [HANDS-ON-10: Implementing MLOps Pipeline using GitHub, CodePipeline, CodeBuild, CodeDeploy, Sagemaker Endpoint](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-010-MLOps-SageMaker-GitHub-Codepipeline-CodeBuild-CodeDeploy.md)
+
+## References  <a name="references"></a>
+- https://github.com/aws-samples
+- https://github.com/aws-ia/terraform-aws-eks-blueprints
+- https://github.com/aws-ia
