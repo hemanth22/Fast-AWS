@@ -6,8 +6,7 @@ This sample shows:
 - how to create API-gateway resource and method definition, Lambda-API-gateway connection, deploying API-gateway,
 - details on AWS Lambda, API-Gateway, IAM
 
-![3 Lambda-TF](https://github.com/user-attachments/assets/554cfb9b-44a3-4eb0-b278-a3ae5c25ffbe)
-
+![lambda-cloudwatch-apigw](https://github.com/user-attachments/assets/512124ff-4d0d-4f06-a608-f5276624a164)
 
 There are 3 main parts:
 - lambda.tf: It includes lambda function, lambda role, policy, policy-role attachment, lambda api gateway permission, zipping code
