@@ -1112,8 +1112,9 @@ There are more than 200 AWS services. Popular services are listed in short.
 
 - **Go to the Hands-On:**
   - [HANDS-ON-02: Provisioning Lambda, API Gateway and Reaching HTML Page in Python Code From Browser](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-002-Lambda-API-Gateway-Python.md)
+ 
+    ![lambda-cloudwatch-apigw](https://github.com/user-attachments/assets/512124ff-4d0d-4f06-a608-f5276624a164)
   
-
 ### HANDS-ON-03: EBS and EFS Configuration with EC2s <a name="ebs_efs_ec2"></a>
 - This hands-on shows:
   - how to create EBS, mount on Ubuntu and Windows Instances,
@@ -1122,6 +1123,8 @@ There are more than 200 AWS services. Popular services are listed in short.
 
 - **Go to the Hands-On:**
   - [HANDS-ON-03: EBS and EFS Configuration with EC2s](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-003-EC2-EBS-EFS.md)
+ 
+    ![ebs-efs-ec2](https://github.com/user-attachments/assets/9b2eef86-ca6f-4ba8-b1b5-5766364ebbbd)
   
 ### HANDS-ON-04: Provisioning ECR, Pushing Image to ECR, Provisioning ECS, VPC, ELB, ECS Tasks, Service on Fargate Cluster <a name="ecr_ecs_elb_vpc_ecs_service_fargate"></a>  
 - This hands-on shows:
@@ -1142,7 +1145,9 @@ There are more than 200 AWS services. Popular services are listed in short.
   - how to create API Gateway resource and method definition, Lambda - API Gateway connection, deploying API Gateway.
 
 - **Go to the Hands-On:**
-  - [HANDS-ON-05: Provisioning ECR, Lambda and API Gateway to run Flask App Container on Lambda](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-005-Lambda-Container-ApiGateway-FlaskApp.md)  
+  - [HANDS-ON-05: Provisioning ECR, Lambda and API Gateway to run Flask App Container on Lambda](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-005-Lambda-Container-ApiGateway-FlaskApp.md)
+ 
+    ![image](https://user-images.githubusercontent.com/10358317/233119705-ba6544e0-dbfc-49f5-9a65-c20b82f7bae1.png)
 
 ### HANDS-ON-06: Provisioning EKS with Managed Nodes using Blueprint and Modules <a name="eks_managednodes_blueprint"></a>  
 - This hands-on shows:
@@ -1164,6 +1169,8 @@ There are more than 200 AWS services. Popular services are listed in short.
 
 - **Go to the Hands-On:**    
   - [HANDS-ON-07: Provisioning CodeCommit, CodePipeline and Triggering CodeBuild and CodeDeploy Container in Lambda](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-007-CodeCommit-Pipeline-Build-Deploy-Lambda.md)
+ 
+    ![image](https://user-images.githubusercontent.com/10358317/233652299-66b39788-66ee-4a5e-b8e0-ece418fe98e3.png)
 
  ### SAMPLE-08: Provisioning S3 and CloudFront to serve Static Web Site <a name="s3_cloudfront"></a>
 - This hands-on shows:
@@ -1198,6 +1205,8 @@ There are more than 200 AWS services. Popular services are listed in short.
 
 - **Go to the Hands-On:**
   - [HANDS-ON-10: Implementing MLOps Pipeline using GitHub, CodePipeline, CodeBuild, CodeDeploy, Sagemaker Endpoint](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-010-MLOps-SageMaker-GitHub-Codepipeline-CodeBuild-CodeDeploy.md)
+ 
+    ![image](https://github.com/user-attachments/assets/fa30614b-b4da-4fcc-b901-4b83bbee9440)
 
 ## References  <a name="references"></a>
 - https://docs.aws.amazon.com
