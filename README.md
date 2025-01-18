@@ -1098,6 +1098,8 @@ There are more than 200 AWS services. Popular services are listed in short.
   - how to create Virtual Private Cloud (VPC), VPC Components (Public Subnet, Internet Gateway, Route Table) and link to each others,
   - how to create Security Groups (for SSH and Remote Desktop).
 
+  ![ec2-vpc](https://github.com/user-attachments/assets/cdec4f1f-09cd-44a9-95db-78748388b057)
+
 - **Go to the Hands-On:**
   - [HANDS-ON-01: Provisioning EC2s on VPC, Creating Key-Pair, Connecting EC2](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-001-EC2-VPC-Connect.md)
   
