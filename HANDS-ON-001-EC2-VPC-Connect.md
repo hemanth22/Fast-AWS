@@ -8,7 +8,7 @@ This sample shows:
 
 **Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-001-ec2-vpc-connect-ec2
 
-  ![1 VPC-IG-EC2](https://github.com/user-attachments/assets/29c5a207-bc35-43f1-8c4e-75d77acf77c1)
+![ec2-vpc](https://github.com/user-attachments/assets/cdec4f1f-09cd-44a9-95db-78748388b057)
 
 ## Steps
 
