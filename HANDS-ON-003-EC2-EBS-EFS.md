@@ -6,7 +6,7 @@ This sample shows:
   - EFS is not supported on Windows Instance: https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/AmazonEFS.html
 - how to provision VPC, subnet, IGW, route table, security group. 
 
-![aws-ebs-efs](https://github.com/user-attachments/assets/dc4efaf8-9d16-4a83-aeeb-9c0a082a4903)
+![ebs-efs-ec2](https://github.com/user-attachments/assets/9b2eef86-ca6f-4ba8-b1b5-5766364ebbbd)
 
 There are 3 main parts:
 - **main.tf**: It includes 2 EC2 (Ubuntu, Windows), VPC, subnet, IGW, route table, security group implementation.
