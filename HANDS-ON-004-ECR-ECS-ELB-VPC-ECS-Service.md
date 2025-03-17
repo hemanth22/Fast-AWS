@@ -14,7 +14,7 @@ There are 5 main parts:
 - **3_elb.tf**: includes to ALB, Listener, Target Group, Security Group code 
 - **4_ecs_service.tf**: includes ECS Fargate Service code with linking to loadbalancer, subnets, task definition.
 
-   ![ecr-ecs](https://user-images.githubusercontent.com/10358317/232244927-7d819c66-328a-4dd5-b3e1-18b2c7fd92aa.png)
+  ![ECR-ECS-ELB-VPC-ECS-Service2](https://github.com/user-attachments/assets/1e0c7930-1714-4262-a37f-3ede7c400ef5)
 
 **Code:** https://github.com/omerbsezer/Fast-AWS/tree/main/hands-out-labs-code/hands-on-004-ecr-ecs-elb-vpc-ecsservice-container
 
