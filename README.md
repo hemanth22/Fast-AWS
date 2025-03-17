@@ -1136,7 +1136,9 @@ There are more than 200 AWS services. Popular services are listed in short.
 
 - **Go to the Hands-On:**
   - [HANDS-ON-04: Provisioning ECR, Pushing Image to ECR, Provisioning ECS, VPC, ELB, ECS Tasks, Service on Fargate Cluster](https://github.com/omerbsezer/Fast-AWS/blob/main/HANDS-ON-004-ECR-ECS-ELB-VPC-ECS-Service.md)
-  
+ 
+  ![ECR-ECS-ELB-VPC-ECS-Service2](https://github.com/user-attachments/assets/a19b62a9-8218-47f6-81c6-c6672606dadb)
+
  ### HANDS-ON-05: Provisioning ECR, Lambda and API Gateway to run Flask App Container on Lambda <a name="ecr_lambda_apigateway_container"></a>  
 - This hands-on shows:
   - how to create Flask-app-serverless image to run on Lambda,
